@@ -1,0 +1,949 @@
+order_id,customer_id,store,order_date,category,quantity,unit_price,channel,on_time,revenue,complaint
+20001,CUST0012,Elmsford,2026-05-25,Household,2,9.86,pickup,True,19.72,False
+20002,CUST0175,Brookhaven,2026-05-25,Household,1,7.73,pickup,True,7.73,False
+20003,CUST0187,Cedar Falls,2026-05-25,Pantry,4,4.75,pickup,True,19.0,False
+20004,CUST0067,Northgate,2026-05-25,Bakery,1,2.85,delivery,False,2.85,True
+20005,CUST0083,Brookhaven,2026-05-25,Pantry,6,5.35,pickup,True,32.1,False
+20006,CUST0016,Cedar Falls,2026-05-25,Beverages,2,5.93,delivery,True,11.86,False
+20007,CUST0302,Elmsford,2026-05-25,Produce,7,2.11,pickup,True,14.77,False
+20008,CUST0239,Northgate,2026-05-25,Household,3,6.35,delivery,True,19.05,False
+20009,CUST0315,Northgate,2026-05-25,Beverages,4,2.6,pickup,True,10.4,False
+20010,CUST0040,Elmsford,2026-05-25,Dairy,5,3.21,pickup,True,16.05,False
+20011,CUST0326,Northgate,2026-05-26,Dairy,3,4.0,delivery,True,12.0,False
+20012,CUST0235,Northgate,2026-05-26,Frozen,1,5.42,pickup,True,5.42,False
+20013,CUST0007,Elmsford,2026-05-26,Pantry,6,3.72,delivery,True,22.32,False
+20014,CUST0258,Northgate,2026-05-26,Household,1,9.13,pickup,True,9.13,False
+20015,CUST0015,Brookhaven,2026-05-26,Household,2,7.11,pickup,True,14.22,False
+20016,CUST0080,Elmsford,2026-05-26,Produce,2,2.77,delivery,True,5.54,False
+20017,CUST0249,Cedar Falls,2026-05-26,Produce,5,3.31,delivery,True,16.55,False
+20018,CUST0238,Northgate,2026-05-26,Pantry,4,3.6,delivery,True,14.4,False
+20019,CUST0136,Cedar Falls,2026-05-26,Frozen,2,5.7,delivery,True,11.4,False
+20020,CUST0136,Cedar Falls,2026-05-26,Frozen,4,6.45,delivery,True,25.8,False
+20021,CUST0203,Cedar Falls,2026-05-27,Frozen,3,5.06,delivery,True,15.18,False
+20022,CUST0068,Cedar Falls,2026-05-27,Bakery,1,3.6,pickup,True,3.6,False
+20023,CUST0128,Brookhaven,2026-05-27,Bakery,2,2.73,pickup,True,5.46,False
+20024,CUST0306,Brookhaven,2026-05-27,Beverages,3,4.04,pickup,True,12.12,False
+20025,CUST0033,Cedar Falls,2026-05-27,Dairy,5,2.97,delivery,True,14.85,False
+20026,CUST0288,Elmsford,2026-05-27,Frozen,4,4.41,pickup,True,17.64,False
+20027,CUST0195,Cedar Falls,2026-05-27,Bakery,1,5.03,pickup,True,5.03,False
+20028,CUST0259,Northgate,2026-05-27,Meat,3,11.14,pickup,True,33.42,False
+20029,CUST0226,Northgate,2026-05-27,Frozen,2,5.72,pickup,True,11.44,False
+20030,CUST0219,Cedar Falls,2026-05-27,Dairy,2,4.53,pickup,True,9.06,False
+20031,CUST0030,Elmsford,2026-05-27,Pantry,3,4.43,pickup,True,13.29,False
+20032,CUST0115,Elmsford,2026-05-27,Beverages,5,3.25,pickup,True,16.25,False
+20033,CUST0271,Northgate,2026-05-27,Frozen,4,4.44,delivery,True,17.76,True
+20034,CUST0055,Cedar Falls,2026-05-27,Frozen,2,5.89,pickup,True,11.78,False
+20035,CUST0103,Elmsford,2026-05-27,Beverages,6,3.66,pickup,True,21.96,False
+20036,CUST0061,Elmsford,2026-05-28,Produce,3,2.54,pickup,True,7.62,False
+20037,CUST0149,Northgate,2026-05-28,Frozen,4,6.18,pickup,True,24.72,False
+20038,CUST0235,Brookhaven,2026-05-28,Bakery,1,4.37,pickup,True,4.37,False
+20039,CUST0327,Northgate,2026-05-28,Produce,8,1.87,pickup,True,14.96,False
+20040,CUST0314,Elmsford,2026-05-28,Household,3,4.87,delivery,True,14.61,False
+20041,CUST0327,Northgate,2026-05-28,Household,2,10.07,pickup,True,20.14,False
+20042,CUST0244,Elmsford,2026-05-28,Meat,2,10.29,delivery,True,20.58,False
+20043,CUST0051,Cedar Falls,2026-05-28,Meat,1,10.67,pickup,True,10.67,False
+20044,CUST0100,Brookhaven,2026-05-28,Frozen,4,4.8,pickup,True,19.2,False
+20045,CUST0055,Northgate,2026-05-29,Produce,7,2.28,pickup,True,15.96,False
+20046,CUST0095,Elmsford,2026-05-29,Pantry,5,4.48,delivery,True,22.4,False
+20047,CUST0013,Elmsford,2026-05-29,Meat,2,12.9,pickup,True,25.8,False
+20048,CUST0209,Elmsford,2026-05-29,Household,1,7.13,delivery,True,7.13,True
+20049,CUST0105,Brookhaven,2026-05-29,Pantry,5,4.74,pickup,True,23.7,False
+20050,CUST0246,Cedar Falls,2026-05-29,Dairy,2,3.5,delivery,False,7.0,False
+20051,CUST0258,Northgate,2026-05-29,Frozen,2,5.14,pickup,True,10.28,False
+20052,CUST0110,Cedar Falls,2026-05-29,Meat,1,11.56,pickup,True,11.56,False
+20053,CUST0168,Elmsford,2026-05-29,Frozen,1,5.1,pickup,True,5.1,False
+20054,CUST0183,Elmsford,2026-05-29,Meat,1,11.33,pickup,True,11.33,False
+20055,CUST0298,Elmsford,2026-05-29,Household,3,7.31,delivery,True,21.93,False
+20056,CUST0033,Cedar Falls,2026-05-29,Frozen,2,6.25,delivery,True,12.5,False
+20057,CUST0036,Cedar Falls,2026-05-30,Produce,5,3.1,pickup,True,15.5,False
+20058,CUST0200,Northgate,2026-05-30,Pantry,5,3.61,pickup,True,18.05,False
+20059,CUST0204,Cedar Falls,2026-05-30,Beverages,3,3.56,pickup,True,10.68,False
+20060,CUST0195,Northgate,2026-05-30,Beverages,5,3.69,pickup,True,18.45,False
+20061,CUST0242,Cedar Falls,2026-05-30,Dairy,3,4.56,pickup,True,13.68,True
+20062,CUST0044,Brookhaven,2026-05-30,Frozen,1,5.08,pickup,True,5.08,False
+20063,CUST0017,Brookhaven,2026-05-30,Meat,1,8.82,pickup,True,8.82,False
+20064,CUST0032,Brookhaven,2026-05-30,Beverages,2,3.36,pickup,True,6.72,False
+20065,CUST0055,Northgate,2026-05-30,Household,2,10.76,pickup,True,21.52,False
+20066,CUST0111,Elmsford,2026-05-30,Household,3,7.34,delivery,False,22.02,True
+20067,CUST0234,Elmsford,2026-05-30,Dairy,3,3.44,pickup,True,10.32,False
+20068,CUST0080,Elmsford,2026-05-30,Household,1,10.52,pickup,True,10.52,False
+20069,CUST0013,Cedar Falls,2026-05-30,Bakery,1,4.16,pickup,True,4.16,False
+20070,CUST0147,Cedar Falls,2026-05-30,Dairy,5,3.06,delivery,True,15.3,True
+20071,CUST0054,Northgate,2026-05-30,Household,2,8.47,pickup,True,16.94,False
+20072,CUST0333,Cedar Falls,2026-05-31,Dairy,4,3.64,pickup,True,14.56,False
+20073,CUST0119,Elmsford,2026-05-31,Produce,8,3.2,pickup,True,25.6,False
+20074,CUST0200,Northgate,2026-05-31,Household,2,6.0,pickup,True,12.0,True
+20075,CUST0059,Northgate,2026-05-31,Household,3,6.03,delivery,True,18.09,False
+20076,CUST0339,Brookhaven,2026-05-31,Frozen,2,4.27,pickup,False,8.54,False
+20077,CUST0135,Brookhaven,2026-05-31,Frozen,4,5.15,pickup,True,20.6,False
+20078,CUST0162,Northgate,2026-05-31,Dairy,2,3.78,pickup,True,7.56,False
+20079,CUST0199,Elmsford,2026-05-31,Frozen,3,6.19,delivery,True,18.57,True
+20080,CUST0109,Elmsford,2026-05-31,Meat,3,6.78,pickup,True,20.34,False
+20081,CUST0045,Northgate,2026-05-31,Household,3,7.04,pickup,True,21.12,False
+20082,CUST0145,Northgate,2026-05-31,Household,2,7.13,pickup,True,14.26,False
+20083,CUST0059,Northgate,2026-05-31,Dairy,4,3.99,pickup,False,15.96,False
+20084,CUST0075,Elmsford,2026-05-31,Dairy,5,3.36,pickup,True,16.8,False
+20085,CUST0002,Cedar Falls,2026-06-01,Frozen,1,6.43,pickup,True,6.43,False
+20086,CUST0032,Elmsford,2026-06-01,Meat,1,11.82,pickup,True,11.82,False
+20087,CUST0004,Elmsford,2026-06-01,Meat,1,11.03,delivery,True,11.03,False
+20088,CUST0114,Northgate,2026-06-01,Frozen,1,4.06,pickup,True,4.06,False
+20089,CUST0044,Elmsford,2026-06-01,Bakery,1,4.85,delivery,True,4.85,False
+20090,CUST0278,Cedar Falls,2026-06-01,Meat,3,9.81,pickup,True,29.43,False
+20091,CUST0204,Elmsford,2026-06-01,Pantry,6,3.98,pickup,True,23.88,False
+20092,CUST0306,Cedar Falls,2026-06-01,Bakery,1,4.18,pickup,True,4.18,False
+20093,CUST0163,Northgate,2026-06-01,Pantry,2,4.72,delivery,True,9.44,False
+20094,CUST0089,Brookhaven,2026-06-01,Household,3,6.81,pickup,True,20.43,False
+20095,CUST0159,Cedar Falls,2026-06-01,Beverages,2,4.85,pickup,True,9.7,False
+20096,CUST0307,Brookhaven,2026-06-01,Household,1,7.7,pickup,True,7.7,False
+20097,CUST0018,Cedar Falls,2026-06-01,Frozen,4,6.7,pickup,True,26.8,False
+20098,CUST0157,Cedar Falls,2026-06-01,Household,3,5.93,pickup,True,17.79,False
+20099,CUST0258,Northgate,2026-06-02,Beverages,4,2.91,delivery,True,11.64,False
+20100,CUST0073,Elmsford,2026-06-02,Bakery,2,5.15,delivery,True,10.3,False
+20101,CUST0233,Elmsford,2026-06-02,Bakery,1,4.17,pickup,True,4.17,False
+20102,CUST0182,Cedar Falls,2026-06-02,Household,1,6.43,pickup,True,6.43,False
+20103,CUST0330,Brookhaven,2026-06-02,Household,2,8.26,pickup,True,16.52,False
+20104,CUST0104,Elmsford,2026-06-02,Beverages,5,5.43,delivery,True,27.15,False
+20105,CUST0024,Brookhaven,2026-06-02,Bakery,3,4.79,pickup,True,14.37,False
+20106,CUST0092,Cedar Falls,2026-06-02,Frozen,3,3.54,pickup,True,10.62,False
+20107,CUST0187,Cedar Falls,2026-06-03,Household,1,7.23,pickup,True,7.23,False
+20108,CUST0055,Northgate,2026-06-03,Household,1,6.91,delivery,True,6.91,False
+20109,CUST0151,Elmsford,2026-06-03,Produce,4,2.3,delivery,True,9.2,False
+20110,CUST0167,Elmsford,2026-06-03,Pantry,6,6.63,pickup,True,39.78,False
+20111,CUST0141,Elmsford,2026-06-03,Beverages,4,3.94,delivery,True,15.76,False
+20112,CUST0339,Elmsford,2026-06-03,Bakery,1,3.62,pickup,False,3.62,False
+20113,CUST0078,Elmsford,2026-06-03,Household,1,5.28,pickup,True,5.28,False
+20114,CUST0285,Elmsford,2026-06-03,Meat,3,6.76,pickup,True,20.28,False
+20115,CUST0154,Cedar Falls,2026-06-03,Household,3,7.55,delivery,True,22.65,False
+20116,CUST0270,Elmsford,2026-06-03,Meat,3,9.41,pickup,False,28.23,True
+20117,CUST0149,Northgate,2026-06-03,Household,3,5.77,pickup,True,17.31,False
+20118,CUST0301,Northgate,2026-06-03,Pantry,3,3.17,pickup,True,9.51,False
+20119,CUST0113,Brookhaven,2026-06-03,Beverages,5,3.28,pickup,True,16.4,False
+20120,CUST0012,Brookhaven,2026-06-03,Produce,8,1.87,pickup,True,14.96,False
+20121,CUST0196,Cedar Falls,2026-06-03,Beverages,2,5.58,pickup,True,11.16,False
+20122,CUST0322,Northgate,2026-06-03,Household,1,5.48,delivery,True,5.48,False
+20123,CUST0049,Cedar Falls,2026-06-03,Frozen,4,5.53,delivery,True,22.12,False
+20124,CUST0306,Northgate,2026-06-03,Household,1,3.35,pickup,True,3.35,False
+20125,CUST0196,Cedar Falls,2026-06-04,Pantry,5,4.92,pickup,True,24.6,False
+20126,CUST0165,Cedar Falls,2026-06-04,Produce,7,4.31,delivery,True,30.17,False
+20127,CUST0275,Cedar Falls,2026-06-04,Produce,7,2.67,delivery,True,18.69,False
+20128,CUST0117,Elmsford,2026-06-04,Pantry,4,4.44,pickup,True,17.76,False
+20129,CUST0132,Elmsford,2026-06-04,Beverages,5,4.22,pickup,True,21.1,False
+20130,CUST0104,Northgate,2026-06-04,Pantry,1,6.11,delivery,True,6.11,False
+20131,CUST0159,Cedar Falls,2026-06-04,Frozen,2,5.08,pickup,True,10.16,False
+20132,CUST0121,Brookhaven,2026-06-04,Frozen,2,3.79,pickup,True,7.58,False
+20133,CUST0285,Northgate,2026-06-04,Produce,4,3.87,pickup,True,15.48,False
+20134,CUST0107,Elmsford,2026-06-04,Bakery,3,5.24,delivery,True,15.72,False
+20135,CUST0029,Elmsford,2026-06-04,Frozen,4,5.85,delivery,True,23.4,False
+20136,CUST0173,Elmsford,2026-06-04,Frozen,1,4.32,delivery,True,4.32,False
+20137,CUST0280,Brookhaven,2026-06-05,Dairy,1,3.19,pickup,True,3.19,False
+20138,CUST0038,Brookhaven,2026-06-05,Household,2,5.37,pickup,True,10.74,False
+20139,CUST0115,Elmsford,2026-06-05,Dairy,5,2.69,pickup,True,13.45,False
+20140,CUST0105,Elmsford,2026-06-05,Beverages,6,3.56,delivery,False,21.36,False
+20141,CUST0139,Elmsford,2026-06-05,Household,3,6.93,pickup,True,20.79,False
+20142,CUST0331,Northgate,2026-06-05,Frozen,3,5.3,delivery,True,15.9,False
+20143,CUST0257,Cedar Falls,2026-06-05,Meat,1,9.15,pickup,False,9.15,True
+20144,CUST0325,Cedar Falls,2026-06-05,Beverages,2,2.33,pickup,True,4.66,False
+20145,CUST0068,Elmsford,2026-06-05,Bakery,1,4.05,delivery,True,4.05,False
+20146,CUST0016,Northgate,2026-06-05,Household,1,10.35,delivery,True,10.35,False
+20147,CUST0212,Northgate,2026-06-05,Pantry,1,6.07,delivery,True,6.07,False
+20148,CUST0022,Elmsford,2026-06-05,Household,3,5.98,pickup,True,17.94,False
+20149,CUST0260,Brookhaven,2026-06-06,Beverages,3,5.13,pickup,True,15.39,False
+20150,CUST0008,Brookhaven,2026-06-06,Frozen,4,5.42,pickup,True,21.68,False
+20151,CUST0339,Cedar Falls,2026-06-06,Frozen,3,6.02,pickup,True,18.06,False
+20152,CUST0133,Cedar Falls,2026-06-06,Produce,4,2.53,pickup,True,10.12,False
+20153,CUST0105,Elmsford,2026-06-06,Beverages,6,5.73,pickup,True,34.38,False
+20154,CUST0130,Northgate,2026-06-06,Dairy,3,4.0,delivery,True,12.0,False
+20155,CUST0054,Brookhaven,2026-06-06,Produce,8,2.42,pickup,True,19.36,False
+20156,CUST0117,Northgate,2026-06-06,Beverages,5,3.85,delivery,True,19.25,False
+20157,CUST0026,Northgate,2026-06-06,Household,3,6.12,pickup,True,18.36,False
+20158,CUST0037,Cedar Falls,2026-06-06,Bakery,2,5.05,delivery,True,10.1,False
+20159,CUST0257,Cedar Falls,2026-06-06,Produce,4,3.75,pickup,True,15.0,False
+20160,CUST0216,Elmsford,2026-06-06,Dairy,5,3.55,pickup,True,17.75,False
+20161,CUST0245,Northgate,2026-06-06,Frozen,2,7.41,pickup,True,14.82,False
+20162,CUST0224,Cedar Falls,2026-06-06,Bakery,3,4.15,delivery,True,12.45,False
+20163,CUST0165,Cedar Falls,2026-06-06,Frozen,3,5.98,pickup,True,17.94,False
+20164,CUST0034,Elmsford,2026-06-06,Household,2,7.66,pickup,True,15.32,False
+20165,CUST0050,Elmsford,2026-06-06,Bakery,3,2.9,delivery,True,8.7,False
+20166,CUST0114,Cedar Falls,2026-06-06,Household,1,5.43,pickup,False,5.43,False
+20167,CUST0156,Elmsford,2026-06-07,Bakery,1,3.59,pickup,True,3.59,False
+20168,CUST0286,Elmsford,2026-06-07,Produce,8,2.51,pickup,True,20.08,False
+20169,CUST0262,Brookhaven,2026-06-07,Household,2,7.93,pickup,True,15.86,False
+20170,CUST0108,Northgate,2026-06-07,Bakery,2,3.94,delivery,True,7.88,False
+20171,CUST0085,Cedar Falls,2026-06-07,Bakery,2,4.44,delivery,True,8.88,False
+20172,CUST0263,Elmsford,2026-06-07,Beverages,2,4.46,pickup,True,8.92,True
+20173,CUST0286,Elmsford,2026-06-07,Produce,8,1.52,delivery,True,12.16,False
+20174,CUST0257,Elmsford,2026-06-07,Dairy,4,3.04,delivery,True,12.16,False
+20175,CUST0187,Elmsford,2026-06-07,Pantry,3,5.25,delivery,True,15.75,False
+20176,CUST0150,Cedar Falls,2026-06-07,Frozen,4,4.89,pickup,True,19.56,False
+20177,CUST0080,Brookhaven,2026-06-07,Dairy,3,3.0,pickup,True,9.0,False
+20178,CUST0038,Brookhaven,2026-06-07,Beverages,5,3.01,pickup,True,15.05,False
+20179,CUST0128,Northgate,2026-06-07,Frozen,3,7.01,pickup,True,21.03,False
+20180,CUST0120,Elmsford,2026-06-07,Frozen,1,4.48,delivery,True,4.48,False
+20181,CUST0295,Brookhaven,2026-06-07,Meat,2,7.71,pickup,True,15.42,False
+20182,CUST0127,Elmsford,2026-06-07,Household,2,5.91,pickup,True,11.82,False
+20183,CUST0323,Elmsford,2026-06-08,Household,2,6.47,pickup,True,12.94,False
+20184,CUST0006,Northgate,2026-06-08,Produce,6,2.86,pickup,True,17.16,False
+20185,CUST0163,Cedar Falls,2026-06-08,Dairy,4,4.45,pickup,True,17.8,False
+20186,CUST0085,Elmsford,2026-06-08,Dairy,1,3.27,pickup,True,3.27,False
+20187,CUST0263,Brookhaven,2026-06-08,Pantry,6,4.7,pickup,True,28.2,False
+20188,CUST0105,Cedar Falls,2026-06-08,Dairy,3,3.71,pickup,True,11.13,False
+20189,CUST0237,Elmsford,2026-06-08,Meat,2,5.67,pickup,True,11.34,False
+20190,CUST0102,Elmsford,2026-06-08,Household,3,5.32,pickup,True,15.96,False
+20191,CUST0298,Cedar Falls,2026-06-09,Bakery,2,4.87,delivery,True,9.74,False
+20192,CUST0216,Elmsford,2026-06-09,Pantry,6,3.41,delivery,True,20.46,False
+20193,CUST0030,Northgate,2026-06-09,Beverages,3,3.72,delivery,True,11.16,False
+20194,CUST0330,Cedar Falls,2026-06-09,Meat,2,12.48,pickup,True,24.96,False
+20195,CUST0028,Elmsford,2026-06-09,Pantry,2,6.54,pickup,True,13.08,False
+20196,CUST0286,Cedar Falls,2026-06-09,Bakery,1,3.49,pickup,True,3.49,False
+20197,CUST0095,Cedar Falls,2026-06-09,Meat,2,6.6,pickup,True,13.2,False
+20198,CUST0010,Northgate,2026-06-09,Dairy,5,3.88,pickup,True,19.4,False
+20199,CUST0279,Brookhaven,2026-06-09,Meat,3,5.71,pickup,True,17.13,False
+20200,CUST0174,Cedar Falls,2026-06-09,Meat,2,9.83,pickup,True,19.66,False
+20201,CUST0137,Elmsford,2026-06-09,Pantry,3,6.41,pickup,False,19.23,False
+20202,CUST0258,Brookhaven,2026-06-09,Produce,6,2.74,pickup,True,16.44,False
+20203,CUST0098,Elmsford,2026-06-09,Dairy,1,3.03,delivery,True,3.03,False
+20204,CUST0083,Northgate,2026-06-09,Produce,8,2.26,pickup,True,18.08,False
+20205,CUST0268,Brookhaven,2026-06-10,Meat,2,8.31,pickup,True,16.62,False
+20206,CUST0026,Cedar Falls,2026-06-10,Beverages,3,4.57,pickup,True,13.71,False
+20207,CUST0136,Cedar Falls,2026-06-10,Dairy,4,2.93,pickup,True,11.72,False
+20208,CUST0164,Northgate,2026-06-10,Dairy,4,3.61,pickup,True,14.44,False
+20209,CUST0255,Northgate,2026-06-10,Household,1,5.62,delivery,True,5.62,False
+20210,CUST0142,Elmsford,2026-06-10,Pantry,1,3.96,pickup,True,3.96,False
+20211,CUST0225,Northgate,2026-06-10,Dairy,5,3.93,pickup,True,19.65,False
+20212,CUST0065,Elmsford,2026-06-10,Produce,5,3.46,pickup,True,17.3,False
+20213,CUST0089,Cedar Falls,2026-06-10,Meat,3,7.8,delivery,True,23.4,False
+20214,CUST0202,Elmsford,2026-06-10,Beverages,2,3.08,delivery,True,6.16,False
+20215,CUST0094,Cedar Falls,2026-06-10,Meat,2,10.16,pickup,True,20.32,False
+20216,CUST0075,Elmsford,2026-06-10,Pantry,1,5.56,pickup,True,5.56,True
+20217,CUST0024,Cedar Falls,2026-06-10,Household,3,5.32,pickup,True,15.96,False
+20218,CUST0274,Elmsford,2026-06-11,Frozen,4,6.46,delivery,True,25.84,False
+20219,CUST0246,Elmsford,2026-06-11,Bakery,2,4.68,pickup,True,9.36,False
+20220,CUST0104,Elmsford,2026-06-11,Beverages,6,4.69,pickup,True,28.14,False
+20221,CUST0058,Cedar Falls,2026-06-11,Pantry,6,2.97,delivery,True,17.82,False
+20222,CUST0075,Elmsford,2026-06-11,Produce,6,2.3,delivery,True,13.8,False
+20223,CUST0180,Elmsford,2026-06-11,Pantry,3,3.96,delivery,True,11.88,False
+20224,CUST0163,Cedar Falls,2026-06-11,Produce,4,2.6,pickup,True,10.4,False
+20225,CUST0274,Elmsford,2026-06-11,Produce,1,2.4,pickup,True,2.4,False
+20226,CUST0135,Elmsford,2026-06-11,Beverages,4,4.43,pickup,False,17.72,False
+20227,CUST0154,Brookhaven,2026-06-11,Pantry,3,5.04,pickup,True,15.12,False
+20228,CUST0030,Brookhaven,2026-06-11,Pantry,2,4.91,pickup,True,9.82,False
+20229,CUST0147,Elmsford,2026-06-11,Household,2,9.44,delivery,True,18.88,False
+20230,CUST0323,Brookhaven,2026-06-12,Dairy,5,3.99,pickup,True,19.95,False
+20231,CUST0028,Elmsford,2026-06-12,Bakery,3,4.12,pickup,True,12.36,False
+20232,CUST0180,Elmsford,2026-06-12,Bakery,1,3.67,pickup,True,3.67,False
+20233,CUST0279,Cedar Falls,2026-06-12,Household,1,5.53,delivery,False,5.53,False
+20234,CUST0308,Northgate,2026-06-12,Pantry,6,3.27,pickup,True,19.62,False
+20235,CUST0235,Brookhaven,2026-06-12,Household,1,9.31,pickup,True,9.31,False
+20236,CUST0123,Brookhaven,2026-06-12,Produce,2,2.7,pickup,True,5.4,False
+20237,CUST0291,Brookhaven,2026-06-13,Dairy,1,4.29,pickup,True,4.29,False
+20238,CUST0137,Northgate,2026-06-13,Produce,2,2.57,pickup,True,5.14,False
+20239,CUST0305,Brookhaven,2026-06-13,Beverages,3,4.54,pickup,True,13.62,False
+20240,CUST0330,Elmsford,2026-06-13,Dairy,2,3.33,pickup,False,6.66,True
+20241,CUST0047,Elmsford,2026-06-13,Produce,6,2.37,delivery,True,14.22,False
+20242,CUST0253,Brookhaven,2026-06-13,Produce,8,2.58,pickup,True,20.64,False
+20243,CUST0159,Elmsford,2026-06-13,Pantry,5,5.31,pickup,True,26.55,False
+20244,CUST0089,Brookhaven,2026-06-13,Meat,1,9.99,pickup,True,9.99,False
+20245,CUST0166,Northgate,2026-06-13,Household,3,9.22,pickup,True,27.66,False
+20246,CUST0307,Northgate,2026-06-13,Produce,4,4.15,pickup,True,16.6,True
+20247,CUST0046,Northgate,2026-06-13,Frozen,4,7.01,pickup,True,28.04,False
+20248,CUST0191,Brookhaven,2026-06-13,Produce,2,2.21,pickup,True,4.42,False
+20249,CUST0193,Northgate,2026-06-13,Bakery,1,4.45,delivery,True,4.45,False
+20250,CUST0096,Brookhaven,2026-06-13,Frozen,4,4.43,pickup,True,17.72,False
+20251,CUST0002,Cedar Falls,2026-06-13,Meat,1,11.57,pickup,True,11.57,False
+20252,CUST0200,Northgate,2026-06-13,Meat,1,11.75,pickup,True,11.75,False
+20253,CUST0151,Cedar Falls,2026-06-13,Household,2,7.92,pickup,True,15.84,False
+20254,CUST0038,Cedar Falls,2026-06-13,Bakery,3,4.12,delivery,True,12.36,False
+20255,CUST0038,Northgate,2026-06-13,Beverages,4,2.75,delivery,False,11.0,False
+20256,CUST0139,Northgate,2026-06-13,Frozen,3,4.8,delivery,False,14.4,True
+20257,CUST0318,Northgate,2026-06-13,Beverages,1,4.17,delivery,True,4.17,False
+20258,CUST0168,Northgate,2026-06-13,Meat,3,10.58,pickup,True,31.74,False
+20259,CUST0089,Elmsford,2026-06-14,Produce,3,3.29,delivery,True,9.87,False
+20260,CUST0302,Brookhaven,2026-06-14,Pantry,2,5.84,pickup,True,11.68,False
+20261,CUST0307,Cedar Falls,2026-06-14,Dairy,3,3.35,delivery,True,10.05,False
+20262,CUST0110,Elmsford,2026-06-14,Pantry,4,6.09,delivery,True,24.36,False
+20263,CUST0056,Northgate,2026-06-14,Bakery,1,4.44,delivery,False,4.44,False
+20264,CUST0181,Brookhaven,2026-06-14,Frozen,2,4.92,pickup,True,9.84,False
+20265,CUST0060,Cedar Falls,2026-06-14,Beverages,3,4.73,pickup,True,14.19,False
+20266,CUST0334,Northgate,2026-06-14,Frozen,4,5.7,delivery,False,22.8,False
+20267,CUST0103,Cedar Falls,2026-06-14,Dairy,3,4.36,delivery,True,13.08,False
+20268,CUST0112,Cedar Falls,2026-06-14,Dairy,5,3.53,delivery,True,17.65,False
+20269,CUST0324,Elmsford,2026-06-14,Pantry,1,4.2,pickup,True,4.2,False
+20270,CUST0137,Northgate,2026-06-14,Dairy,2,4.21,delivery,True,8.42,False
+20271,CUST0178,Elmsford,2026-06-14,Frozen,4,4.62,pickup,True,18.48,False
+20272,CUST0217,Cedar Falls,2026-06-14,Pantry,3,3.05,delivery,True,9.15,False
+20273,CUST0279,Northgate,2026-06-14,Meat,1,8.83,delivery,True,8.83,False
+20274,CUST0205,Brookhaven,2026-06-14,Frozen,3,4.7,pickup,True,14.1,False
+20275,CUST0209,Northgate,2026-06-14,Beverages,3,3.41,pickup,True,10.23,False
+20276,CUST0270,Cedar Falls,2026-06-14,Frozen,1,5.9,pickup,False,5.9,False
+20277,CUST0144,Elmsford,2026-06-15,Pantry,5,4.3,pickup,True,21.5,False
+20278,CUST0198,Brookhaven,2026-06-15,Frozen,2,4.42,pickup,True,8.84,False
+20279,CUST0002,Cedar Falls,2026-06-15,Bakery,3,3.9,delivery,True,11.7,False
+20280,CUST0237,Elmsford,2026-06-15,Dairy,2,2.72,delivery,True,5.44,False
+20281,CUST0226,Cedar Falls,2026-06-15,Dairy,1,3.3,pickup,True,3.3,False
+20282,CUST0259,Cedar Falls,2026-06-15,Produce,5,3.59,delivery,True,17.95,False
+20283,CUST0162,Elmsford,2026-06-15,Pantry,1,5.47,pickup,True,5.47,False
+20284,CUST0140,Northgate,2026-06-15,Dairy,2,3.65,pickup,True,7.3,False
+20285,CUST0016,Brookhaven,2026-06-15,Bakery,3,3.84,pickup,True,11.52,False
+20286,CUST0230,Northgate,2026-06-15,Frozen,2,7.26,delivery,True,14.52,False
+20287,CUST0009,Elmsford,2026-06-15,Dairy,5,3.43,pickup,True,17.15,False
+20288,CUST0183,Northgate,2026-06-16,Pantry,6,4.63,pickup,True,27.78,False
+20289,CUST0294,Elmsford,2026-06-16,Frozen,3,4.46,pickup,True,13.38,False
+20290,CUST0260,Cedar Falls,2026-06-16,Dairy,2,4.46,pickup,True,8.92,False
+20291,CUST0010,Northgate,2026-06-16,Dairy,1,3.31,pickup,True,3.31,False
+20292,CUST0159,Northgate,2026-06-16,Beverages,1,3.24,delivery,True,3.24,False
+20293,CUST0135,Cedar Falls,2026-06-16,Dairy,1,3.59,delivery,True,3.59,False
+20294,CUST0245,Cedar Falls,2026-06-16,Produce,3,2.62,pickup,True,7.86,False
+20295,CUST0172,Northgate,2026-06-16,Household,3,9.38,pickup,True,28.14,False
+20296,CUST0307,Cedar Falls,2026-06-17,Frozen,3,6.54,delivery,True,19.62,False
+20297,CUST0339,Northgate,2026-06-17,Bakery,3,4.39,pickup,True,13.17,False
+20298,CUST0057,Cedar Falls,2026-06-17,Meat,3,10.88,delivery,False,32.64,False
+20299,CUST0132,Northgate,2026-06-17,Household,1,6.27,pickup,True,6.27,False
+20300,CUST0132,Northgate,2026-06-17,Produce,8,2.21,delivery,False,17.68,False
+20301,CUST0059,Brookhaven,2026-06-17,Meat,3,10.93,pickup,True,32.79,False
+20302,CUST0183,Northgate,2026-06-17,Household,2,4.87,pickup,True,9.74,False
+20303,CUST0098,Elmsford,2026-06-17,Bakery,1,4.59,delivery,True,4.59,False
+20304,CUST0042,Elmsford,2026-06-17,Dairy,2,3.47,pickup,True,6.94,True
+20305,CUST0021,Cedar Falls,2026-06-17,Bakery,1,4.6,pickup,False,4.6,False
+20306,CUST0063,Brookhaven,2026-06-17,Dairy,4,3.25,pickup,True,13.0,False
+20307,CUST0338,Elmsford,2026-06-18,Pantry,4,6.74,delivery,True,26.96,False
+20308,CUST0128,Northgate,2026-06-18,Beverages,2,4.55,pickup,True,9.1,False
+20309,CUST0003,Elmsford,2026-06-18,Pantry,5,3.68,delivery,True,18.4,False
+20310,CUST0235,Cedar Falls,2026-06-18,Frozen,3,4.41,pickup,True,13.23,False
+20311,CUST0201,Brookhaven,2026-06-18,Pantry,5,4.8,delivery,False,24.0,True
+20312,CUST0104,Northgate,2026-06-18,Produce,8,1.66,delivery,True,13.28,False
+20313,CUST0269,Elmsford,2026-06-18,Frozen,1,5.95,pickup,True,5.95,False
+20314,CUST0121,Brookhaven,2026-06-18,Meat,3,11.46,pickup,True,34.38,False
+20315,CUST0235,Brookhaven,2026-06-18,Bakery,3,5.32,pickup,True,15.96,False
+20316,CUST0273,Elmsford,2026-06-18,Beverages,4,3.76,pickup,True,15.04,False
+20317,CUST0264,Cedar Falls,2026-06-18,Dairy,2,3.07,pickup,True,6.14,True
+20318,CUST0274,Cedar Falls,2026-06-18,Meat,2,8.64,pickup,False,17.28,True
+20319,CUST0295,Northgate,2026-06-18,Frozen,2,6.45,pickup,True,12.9,False
+20320,CUST0260,Brookhaven,2026-06-18,Frozen,2,5.03,pickup,True,10.06,False
+20321,CUST0045,Elmsford,2026-06-18,Beverages,5,5.21,pickup,True,26.05,False
+20322,CUST0322,Cedar Falls,2026-06-18,Meat,2,10.07,pickup,True,20.14,False
+20323,CUST0035,Northgate,2026-06-18,Beverages,3,4.25,pickup,True,12.75,False
+20324,CUST0149,Brookhaven,2026-06-18,Bakery,1,4.06,pickup,True,4.06,False
+20325,CUST0058,Elmsford,2026-06-19,Meat,2,11.07,delivery,True,22.14,False
+20326,CUST0245,Northgate,2026-06-19,Dairy,4,4.02,pickup,True,16.08,False
+20327,CUST0320,Northgate,2026-06-19,Frozen,4,5.03,delivery,True,20.12,False
+20328,CUST0067,Cedar Falls,2026-06-19,Dairy,5,3.36,pickup,True,16.8,False
+20329,CUST0092,Northgate,2026-06-19,Meat,3,10.05,pickup,True,30.15,False
+20330,CUST0337,Elmsford,2026-06-19,Meat,3,7.65,pickup,True,22.95,True
+20331,CUST0106,Cedar Falls,2026-06-19,Frozen,1,5.63,delivery,True,5.63,False
+20332,CUST0240,Brookhaven,2026-06-19,Dairy,4,4.43,delivery,True,17.72,False
+20333,CUST0159,Brookhaven,2026-06-19,Dairy,4,3.4,delivery,False,13.6,False
+20334,CUST0140,Elmsford,2026-06-19,Bakery,2,3.13,delivery,True,6.26,False
+20335,CUST0245,Elmsford,2026-06-19,Household,3,6.61,delivery,True,19.83,False
+20336,CUST0170,Cedar Falls,2026-06-19,Pantry,2,3.79,delivery,False,7.58,False
+20337,CUST0147,Brookhaven,2026-06-19,Meat,1,11.44,delivery,False,11.44,False
+20338,CUST0104,Brookhaven,2026-06-19,Beverages,2,2.94,pickup,True,5.88,False
+20339,CUST0136,Cedar Falls,2026-06-19,Produce,4,3.25,delivery,True,13.0,False
+20340,CUST0093,Elmsford,2026-06-19,Frozen,3,6.32,pickup,True,18.96,False
+20341,CUST0225,Elmsford,2026-06-19,Pantry,1,3.97,pickup,True,3.97,False
+20342,CUST0290,Northgate,2026-06-20,Pantry,4,5.31,pickup,True,21.24,False
+20343,CUST0279,Cedar Falls,2026-06-20,Dairy,5,3.01,delivery,True,15.05,False
+20344,CUST0294,Cedar Falls,2026-06-20,Meat,2,8.0,delivery,False,16.0,False
+20345,CUST0189,Northgate,2026-06-20,Household,1,7.5,pickup,True,7.5,False
+20346,CUST0244,Elmsford,2026-06-20,Beverages,1,4.39,delivery,True,4.39,False
+20347,CUST0274,Elmsford,2026-06-20,Bakery,2,4.3,pickup,True,8.6,False
+20348,CUST0283,Northgate,2026-06-20,Produce,6,2.9,pickup,True,17.4,False
+20349,CUST0226,Brookhaven,2026-06-20,Produce,8,3.98,delivery,False,31.84,True
+20350,CUST0177,Cedar Falls,2026-06-20,Pantry,2,5.8,pickup,True,11.6,False
+20351,CUST0103,Elmsford,2026-06-20,Bakery,2,3.57,pickup,True,7.14,False
+20352,CUST0092,Northgate,2026-06-20,Beverages,3,2.39,delivery,False,7.17,False
+20353,CUST0330,Elmsford,2026-06-20,Dairy,5,3.0,pickup,True,15.0,False
+20354,CUST0089,Cedar Falls,2026-06-20,Produce,4,2.44,delivery,True,9.76,False
+20355,CUST0252,Northgate,2026-06-20,Dairy,5,3.89,pickup,False,19.45,False
+20356,CUST0008,Northgate,2026-06-20,Produce,1,2.33,delivery,False,2.33,True
+20357,CUST0025,Northgate,2026-06-20,Frozen,4,5.82,delivery,True,23.28,False
+20358,CUST0089,Cedar Falls,2026-06-20,Pantry,5,5.85,delivery,True,29.25,True
+20359,CUST0073,Elmsford,2026-06-20,Dairy,5,4.07,pickup,True,20.35,False
+20360,CUST0295,Cedar Falls,2026-06-21,Beverages,6,4.0,delivery,True,24.0,False
+20361,CUST0083,Elmsford,2026-06-21,Bakery,2,4.32,delivery,True,8.64,False
+20362,CUST0080,Elmsford,2026-06-21,Dairy,5,2.48,pickup,True,12.4,False
+20363,CUST0296,Elmsford,2026-06-21,Frozen,4,7.47,pickup,False,29.88,False
+20364,CUST0210,Cedar Falls,2026-06-21,Produce,3,2.69,pickup,True,8.07,False
+20365,CUST0284,Cedar Falls,2026-06-21,Frozen,2,4.01,delivery,False,8.02,True
+20366,CUST0307,Northgate,2026-06-21,Beverages,3,2.68,pickup,True,8.04,False
+20367,CUST0151,Northgate,2026-06-21,Meat,2,10.49,pickup,True,20.98,False
+20368,CUST0117,Elmsford,2026-06-21,Frozen,2,6.26,delivery,True,12.52,True
+20369,CUST0327,Northgate,2026-06-21,Bakery,1,4.1,delivery,False,4.1,False
+20370,CUST0068,Cedar Falls,2026-06-21,Produce,1,2.62,delivery,True,2.62,False
+20371,CUST0080,Cedar Falls,2026-06-21,Pantry,6,4.19,delivery,True,25.14,False
+20372,CUST0168,Elmsford,2026-06-21,Pantry,6,4.96,pickup,True,29.76,False
+20373,CUST0274,Elmsford,2026-06-21,Dairy,3,4.25,delivery,True,12.75,False
+20374,CUST0080,Elmsford,2026-06-22,Meat,1,8.79,pickup,True,8.79,False
+20375,CUST0012,Cedar Falls,2026-06-22,Dairy,2,3.19,pickup,True,6.38,False
+20376,CUST0249,Northgate,2026-06-22,Produce,3,1.89,pickup,True,5.67,False
+20377,CUST0038,Brookhaven,2026-06-22,Beverages,1,4.03,pickup,True,4.03,False
+20378,CUST0293,Elmsford,2026-06-22,Frozen,3,6.17,delivery,True,18.51,False
+20379,CUST0330,Elmsford,2026-06-22,Frozen,2,5.92,pickup,True,11.84,True
+20380,CUST0091,Brookhaven,2026-06-22,Beverages,2,4.26,delivery,True,8.52,False
+20381,CUST0312,Brookhaven,2026-06-22,Bakery,2,3.24,delivery,True,6.48,False
+20382,CUST0047,Cedar Falls,2026-06-22,Beverages,1,3.11,pickup,True,3.11,False
+20383,CUST0047,Northgate,2026-06-22,Household,2,8.49,pickup,True,16.98,False
+20384,CUST0196,Northgate,2026-06-22,Dairy,4,2.9,delivery,True,11.6,False
+20385,CUST0191,Northgate,2026-06-22,Pantry,2,3.67,pickup,True,7.34,False
+20386,CUST0097,Northgate,2026-06-22,Produce,7,3.1,pickup,True,21.7,False
+20387,CUST0337,Brookhaven,2026-06-22,Beverages,4,3.78,pickup,True,15.12,False
+20388,CUST0039,Northgate,2026-06-22,Beverages,3,2.83,delivery,True,8.49,False
+20389,CUST0322,Northgate,2026-06-22,Meat,2,8.21,delivery,False,16.42,False
+20390,CUST0150,Cedar Falls,2026-06-22,Produce,3,2.48,delivery,True,7.44,False
+20391,CUST0288,Cedar Falls,2026-06-22,Bakery,3,3.11,pickup,True,9.33,False
+20392,CUST0034,Elmsford,2026-06-22,Bakery,3,4.74,delivery,True,14.22,False
+20393,CUST0008,Elmsford,2026-06-22,Frozen,4,6.18,delivery,True,24.72,False
+20394,CUST0120,Northgate,2026-06-23,Bakery,2,4.43,pickup,True,8.86,False
+20395,CUST0198,Northgate,2026-06-23,Household,2,6.15,delivery,True,12.3,False
+20396,CUST0116,Northgate,2026-06-23,Produce,7,2.9,pickup,True,20.3,False
+20397,CUST0044,Brookhaven,2026-06-23,Bakery,3,4.5,pickup,True,13.5,False
+20398,CUST0025,Brookhaven,2026-06-23,Pantry,1,3.27,pickup,True,3.27,False
+20399,CUST0008,Northgate,2026-06-23,Bakery,2,3.78,pickup,True,7.56,False
+20400,CUST0330,Northgate,2026-06-23,Bakery,3,4.24,delivery,True,12.72,False
+20401,CUST0036,Cedar Falls,2026-06-23,Meat,2,10.21,delivery,True,20.42,False
+20402,CUST0087,Elmsford,2026-06-23,Produce,1,2.49,pickup,True,2.49,False
+20403,CUST0303,Brookhaven,2026-06-24,Produce,4,2.41,pickup,True,9.64,False
+20404,CUST0219,Cedar Falls,2026-06-24,Frozen,1,5.13,pickup,True,5.13,False
+20405,CUST0333,Elmsford,2026-06-24,Dairy,5,3.66,delivery,True,18.3,False
+20406,CUST0136,Cedar Falls,2026-06-24,Produce,7,3.57,pickup,True,24.99,False
+20407,CUST0237,Northgate,2026-06-24,Frozen,4,4.73,pickup,False,18.92,False
+20408,CUST0163,Brookhaven,2026-06-24,Produce,7,2.63,pickup,True,18.41,False
+20409,CUST0143,Elmsford,2026-06-24,Frozen,1,6.67,pickup,True,6.67,False
+20410,CUST0136,Brookhaven,2026-06-24,Household,3,6.02,pickup,True,18.06,False
+20411,CUST0075,Elmsford,2026-06-24,Pantry,2,2.76,delivery,True,5.52,False
+20412,CUST0221,Elmsford,2026-06-24,Beverages,1,4.04,pickup,True,4.04,False
+20413,CUST0126,Brookhaven,2026-06-24,Produce,2,2.3,pickup,True,4.6,False
+20414,CUST0245,Elmsford,2026-06-24,Household,1,8.79,delivery,True,8.79,False
+20415,CUST0163,Northgate,2026-06-24,Pantry,4,4.24,pickup,True,16.96,False
+20416,CUST0154,Cedar Falls,2026-06-24,Frozen,2,3.79,pickup,True,7.58,False
+20417,CUST0271,Cedar Falls,2026-06-24,Household,1,6.47,pickup,True,6.47,False
+20418,CUST0149,Cedar Falls,2026-06-25,Frozen,1,6.12,pickup,True,6.12,False
+20419,CUST0181,Northgate,2026-06-25,Dairy,5,4.11,pickup,True,20.55,False
+20420,CUST0203,Northgate,2026-06-25,Dairy,4,4.21,pickup,True,16.84,False
+20421,CUST0135,Elmsford,2026-06-25,Pantry,5,4.82,pickup,True,24.1,False
+20422,CUST0320,Northgate,2026-06-25,Frozen,3,6.51,pickup,True,19.53,False
+20423,CUST0008,Northgate,2026-06-25,Meat,2,10.3,pickup,True,20.6,False
+20424,CUST0337,Cedar Falls,2026-06-25,Produce,6,3.73,pickup,True,22.38,False
+20425,CUST0261,Cedar Falls,2026-06-25,Produce,8,1.25,delivery,False,10.0,False
+20426,CUST0135,Cedar Falls,2026-06-25,Meat,2,9.06,pickup,True,18.12,False
+20427,CUST0180,Elmsford,2026-06-25,Dairy,5,4.1,delivery,True,20.5,False
+20428,CUST0172,Brookhaven,2026-06-25,Produce,1,3.0,pickup,True,3.0,False
+20429,CUST0235,Brookhaven,2026-06-25,Beverages,4,3.26,pickup,True,13.04,False
+20430,CUST0204,Elmsford,2026-06-26,Frozen,2,4.65,pickup,True,9.3,False
+20431,CUST0177,Northgate,2026-06-26,Pantry,2,4.25,delivery,True,8.5,False
+20432,CUST0329,Northgate,2026-06-26,Meat,1,8.12,pickup,True,8.12,False
+20433,CUST0086,Brookhaven,2026-06-26,Frozen,4,5.52,delivery,False,22.08,True
+20434,CUST0204,Brookhaven,2026-06-26,Beverages,1,3.23,pickup,True,3.23,False
+20435,CUST0334,Cedar Falls,2026-06-26,Bakery,2,3.02,pickup,True,6.04,False
+20436,CUST0049,Elmsford,2026-06-26,Bakery,3,4.68,delivery,True,14.04,False
+20437,CUST0169,Cedar Falls,2026-06-26,Meat,2,11.61,pickup,True,23.22,False
+20438,CUST0038,Elmsford,2026-06-26,Pantry,3,6.69,pickup,True,20.07,False
+20439,CUST0274,Elmsford,2026-06-26,Produce,3,1.43,pickup,True,4.29,False
+20440,CUST0270,Elmsford,2026-06-26,Meat,2,10.7,pickup,False,21.4,False
+20441,CUST0293,Northgate,2026-06-26,Frozen,2,5.68,pickup,True,11.36,False
+20442,CUST0209,Cedar Falls,2026-06-26,Bakery,1,2.85,delivery,True,2.85,False
+20443,CUST0125,Elmsford,2026-06-26,Beverages,1,3.19,pickup,True,3.19,False
+20444,CUST0312,Brookhaven,2026-06-26,Produce,7,2.79,pickup,True,19.53,False
+20445,CUST0045,Northgate,2026-06-26,Meat,3,11.05,pickup,True,33.15,False
+20446,CUST0198,Cedar Falls,2026-06-26,Pantry,3,6.17,delivery,True,18.51,False
+20447,CUST0267,Northgate,2026-06-26,Meat,3,10.95,pickup,True,32.85,False
+20448,CUST0312,Elmsford,2026-06-26,Beverages,2,4.04,delivery,True,8.08,False
+20449,CUST0306,Elmsford,2026-06-27,Pantry,3,3.09,pickup,True,9.27,False
+20450,CUST0165,Cedar Falls,2026-06-27,Frozen,3,6.31,delivery,True,18.93,False
+20451,CUST0098,Cedar Falls,2026-06-27,Bakery,3,5.83,pickup,True,17.49,False
+20452,CUST0025,Northgate,2026-06-27,Frozen,2,7.96,pickup,True,15.92,False
+20453,CUST0183,Brookhaven,2026-06-27,Produce,8,3.18,delivery,True,25.44,False
+20454,CUST0063,Brookhaven,2026-06-27,Pantry,4,5.48,pickup,True,21.92,False
+20455,CUST0147,Elmsford,2026-06-27,Frozen,1,4.84,pickup,True,4.84,True
+20456,CUST0301,Cedar Falls,2026-06-27,Dairy,2,3.56,pickup,True,7.12,False
+20457,CUST0236,Northgate,2026-06-27,Dairy,2,3.52,pickup,True,7.04,False
+20458,CUST0263,Elmsford,2026-06-27,Household,1,10.63,pickup,True,10.63,False
+20459,CUST0305,Elmsford,2026-06-27,Household,1,8.43,pickup,True,8.43,False
+20460,CUST0287,Cedar Falls,2026-06-27,Frozen,4,6.81,delivery,True,27.24,False
+20461,CUST0081,Northgate,2026-06-27,Frozen,1,6.51,delivery,True,6.51,False
+20462,CUST0218,Cedar Falls,2026-06-27,Produce,1,2.38,pickup,True,2.38,False
+20463,CUST0322,Elmsford,2026-06-27,Frozen,2,5.52,pickup,True,11.04,False
+20464,CUST0228,Brookhaven,2026-06-27,Pantry,3,4.13,delivery,True,12.39,False
+20465,CUST0177,Northgate,2026-06-27,Pantry,6,4.33,delivery,True,25.98,False
+20466,CUST0083,Elmsford,2026-06-27,Household,3,7.82,pickup,True,23.46,False
+20467,CUST0158,Northgate,2026-06-27,Bakery,3,3.87,delivery,True,11.61,False
+20468,CUST0302,Elmsford,2026-06-27,Bakery,1,3.94,delivery,True,3.94,False
+20469,CUST0150,Elmsford,2026-06-27,Frozen,3,5.86,pickup,True,17.58,False
+20470,CUST0198,Elmsford,2026-06-27,Beverages,1,4.02,pickup,True,4.02,True
+20471,CUST0237,Elmsford,2026-06-27,Pantry,6,4.15,pickup,True,24.9,False
+20472,CUST0233,Northgate,2026-06-27,Meat,1,12.82,delivery,True,12.82,False
+20473,CUST0204,Elmsford,2026-06-27,Pantry,5,3.48,pickup,False,17.4,False
+20474,CUST0172,Northgate,2026-06-27,Bakery,1,4.38,delivery,True,4.38,False
+20475,CUST0170,Cedar Falls,2026-06-28,Bakery,1,4.0,pickup,True,4.0,False
+20476,CUST0137,Brookhaven,2026-06-28,Bakery,3,5.68,delivery,True,17.04,False
+20477,CUST0075,Northgate,2026-06-28,Pantry,6,5.08,delivery,True,30.48,False
+20478,CUST0151,Cedar Falls,2026-06-28,Produce,4,3.34,pickup,True,13.36,False
+20479,CUST0104,Brookhaven,2026-06-28,Meat,2,7.79,pickup,True,15.58,False
+20480,CUST0273,Northgate,2026-06-28,Household,3,7.24,pickup,True,21.72,False
+20481,CUST0205,Elmsford,2026-06-28,Pantry,2,3.03,delivery,True,6.06,False
+20482,CUST0177,Elmsford,2026-06-28,Bakery,3,4.37,pickup,True,13.11,False
+20483,CUST0288,Brookhaven,2026-06-28,Bakery,1,4.29,pickup,True,4.29,False
+20484,CUST0080,Brookhaven,2026-06-28,Dairy,1,3.28,pickup,True,3.28,False
+20485,CUST0111,Cedar Falls,2026-06-28,Bakery,1,5.41,delivery,True,5.41,False
+20486,CUST0262,Northgate,2026-06-28,Bakery,2,3.04,pickup,True,6.08,False
+20487,CUST0324,Elmsford,2026-06-28,Bakery,2,3.86,delivery,True,7.72,False
+20488,CUST0287,Elmsford,2026-06-28,Bakery,1,3.72,delivery,True,3.72,True
+20489,CUST0330,Northgate,2026-06-28,Dairy,4,3.29,pickup,True,13.16,True
+20490,CUST0013,Northgate,2026-06-28,Meat,2,7.28,delivery,True,14.56,False
+20491,CUST0119,Elmsford,2026-06-28,Meat,2,7.43,delivery,False,14.86,False
+20492,CUST0042,Northgate,2026-06-29,Dairy,4,3.21,pickup,True,12.84,False
+20493,CUST0258,Cedar Falls,2026-06-29,Pantry,4,6.38,delivery,True,25.52,False
+20494,CUST0279,Cedar Falls,2026-06-29,Produce,7,3.12,delivery,False,21.84,False
+20495,CUST0136,Brookhaven,2026-06-29,Produce,6,3.19,pickup,True,19.14,False
+20496,CUST0168,Elmsford,2026-06-29,Beverages,5,3.79,pickup,True,18.95,False
+20497,CUST0041,Cedar Falls,2026-06-29,Frozen,1,5.97,pickup,True,5.97,False
+20498,CUST0294,Brookhaven,2026-06-29,Meat,1,8.07,pickup,True,8.07,False
+20499,CUST0329,Elmsford,2026-06-29,Pantry,6,4.54,delivery,True,27.24,False
+20500,CUST0075,Northgate,2026-06-29,Household,1,5.27,delivery,True,5.27,False
+20501,CUST0226,Elmsford,2026-06-29,Meat,2,14.3,pickup,True,28.6,False
+20502,CUST0302,Elmsford,2026-06-29,Produce,8,3.04,delivery,True,24.32,False
+20503,CUST0150,Elmsford,2026-06-29,Household,2,9.02,delivery,True,18.04,True
+20504,CUST0184,Northgate,2026-06-29,Meat,3,8.7,delivery,True,26.1,False
+20505,CUST0254,Brookhaven,2026-06-29,Frozen,1,6.2,delivery,False,6.2,False
+20506,CUST0218,Brookhaven,2026-06-29,Pantry,1,4.65,pickup,True,4.65,False
+20507,CUST0312,Cedar Falls,2026-06-29,Beverages,1,4.89,delivery,True,4.89,False
+20508,CUST0174,Elmsford,2026-06-29,Beverages,6,4.07,pickup,True,24.42,False
+20509,CUST0197,Elmsford,2026-06-29,Produce,5,3.52,delivery,True,17.6,False
+20510,CUST0079,Elmsford,2026-06-30,Household,1,6.24,delivery,True,6.24,False
+20511,CUST0057,Elmsford,2026-06-30,Beverages,4,3.57,pickup,True,14.28,False
+20512,CUST0045,Cedar Falls,2026-06-30,Bakery,2,4.36,pickup,True,8.72,False
+20513,CUST0124,Brookhaven,2026-06-30,Meat,2,9.31,pickup,True,18.62,False
+20514,CUST0148,Brookhaven,2026-06-30,Bakery,3,3.3,pickup,True,9.9,False
+20515,CUST0294,Cedar Falls,2026-06-30,Bakery,1,4.98,delivery,True,4.98,False
+20516,CUST0079,Northgate,2026-06-30,Meat,1,11.75,pickup,True,11.75,False
+20517,CUST0119,Brookhaven,2026-06-30,Dairy,2,2.53,pickup,True,5.06,False
+20518,CUST0327,Brookhaven,2026-06-30,Frozen,4,5.69,pickup,True,22.76,False
+20519,CUST0011,Elmsford,2026-06-30,Bakery,3,3.55,pickup,True,10.65,False
+20520,CUST0050,Elmsford,2026-06-30,Produce,3,3.02,delivery,True,9.06,False
+20521,CUST0117,Cedar Falls,2026-06-30,Household,1,6.21,pickup,True,6.21,False
+20522,CUST0098,Cedar Falls,2026-06-30,Meat,3,8.67,pickup,True,26.01,False
+20523,CUST0150,Northgate,2026-07-01,Frozen,2,6.6,pickup,True,13.2,False
+20524,CUST0094,Northgate,2026-07-01,Dairy,1,3.2,delivery,True,3.2,False
+20525,CUST0212,Elmsford,2026-07-01,Dairy,5,3.63,pickup,True,18.15,False
+20526,CUST0233,Cedar Falls,2026-07-01,Beverages,6,4.45,delivery,True,26.7,False
+20527,CUST0091,Northgate,2026-07-01,Produce,1,3.34,pickup,False,3.34,False
+20528,CUST0050,Northgate,2026-07-01,Dairy,3,3.54,pickup,True,10.62,False
+20529,CUST0276,Elmsford,2026-07-01,Pantry,1,4.05,delivery,True,4.05,False
+20530,CUST0147,Cedar Falls,2026-07-01,Produce,7,2.83,pickup,True,19.81,False
+20531,CUST0301,Northgate,2026-07-01,Produce,2,2.19,delivery,True,4.38,False
+20532,CUST0216,Brookhaven,2026-07-01,Beverages,2,2.45,pickup,True,4.9,False
+20533,CUST0284,Cedar Falls,2026-07-01,Produce,7,2.85,delivery,True,19.95,False
+20534,CUST0102,Brookhaven,2026-07-01,Dairy,1,3.08,pickup,True,3.08,False
+20535,CUST0203,Northgate,2026-07-02,Meat,3,9.4,delivery,True,28.2,False
+20536,CUST0245,Cedar Falls,2026-07-02,Bakery,3,3.19,pickup,True,9.57,False
+20537,CUST0288,Elmsford,2026-07-02,Produce,1,3.39,delivery,True,3.39,False
+20538,CUST0037,Brookhaven,2026-07-02,Beverages,5,4.56,pickup,True,22.8,False
+20539,CUST0052,Elmsford,2026-07-02,Beverages,2,4.5,pickup,True,9.0,False
+20540,CUST0202,Northgate,2026-07-02,Produce,1,2.24,delivery,True,2.24,False
+20541,CUST0214,Cedar Falls,2026-07-02,Bakery,2,3.29,pickup,True,6.58,False
+20542,CUST0147,Cedar Falls,2026-07-02,Produce,4,2.58,pickup,True,10.32,False
+20543,CUST0252,Cedar Falls,2026-07-02,Produce,7,3.05,pickup,True,21.35,False
+20544,CUST0282,Brookhaven,2026-07-02,Pantry,3,4.16,pickup,True,12.48,False
+20545,CUST0301,Northgate,2026-07-02,Bakery,1,4.24,delivery,True,4.24,False
+20546,CUST0340,Elmsford,2026-07-02,Bakery,1,2.18,pickup,True,2.18,False
+20547,CUST0155,Cedar Falls,2026-07-02,Dairy,5,3.67,pickup,True,18.35,False
+20548,CUST0325,Brookhaven,2026-07-03,Meat,2,9.11,pickup,True,18.22,False
+20549,CUST0159,Elmsford,2026-07-03,Pantry,1,5.08,pickup,True,5.08,False
+20550,CUST0111,Elmsford,2026-07-03,Bakery,2,4.93,pickup,True,9.86,False
+20551,CUST0155,Elmsford,2026-07-03,Household,3,7.37,delivery,True,22.11,False
+20552,CUST0148,Elmsford,2026-07-03,Dairy,5,3.29,delivery,True,16.45,False
+20553,CUST0163,Cedar Falls,2026-07-03,Produce,7,2.27,pickup,True,15.89,False
+20554,CUST0246,Cedar Falls,2026-07-03,Beverages,2,5.24,pickup,True,10.48,False
+20555,CUST0202,Elmsford,2026-07-04,Household,2,6.77,delivery,False,13.54,False
+20556,CUST0007,Elmsford,2026-07-04,Beverages,4,4.06,delivery,True,16.24,False
+20557,CUST0158,Cedar Falls,2026-07-04,Frozen,3,4.57,pickup,True,13.71,False
+20558,CUST0147,Elmsford,2026-07-04,Produce,3,2.76,delivery,True,8.28,False
+20559,CUST0286,Brookhaven,2026-07-04,Produce,3,2.86,delivery,False,8.58,False
+20560,CUST0089,Elmsford,2026-07-04,Beverages,5,4.87,delivery,False,24.35,True
+20561,CUST0026,Northgate,2026-07-04,Beverages,1,3.07,delivery,True,3.07,False
+20562,CUST0075,Cedar Falls,2026-07-04,Dairy,3,3.76,pickup,True,11.28,False
+20563,CUST0268,Cedar Falls,2026-07-04,Pantry,3,5.69,delivery,True,17.07,False
+20564,CUST0132,Elmsford,2026-07-04,Dairy,1,4.02,pickup,True,4.02,False
+20565,CUST0041,Brookhaven,2026-07-04,Meat,1,9.63,pickup,True,9.63,False
+20566,CUST0058,Cedar Falls,2026-07-04,Beverages,5,4.42,pickup,True,22.1,False
+20567,CUST0111,Cedar Falls,2026-07-04,Pantry,3,7.25,pickup,True,21.75,False
+20568,CUST0080,Northgate,2026-07-04,Bakery,2,4.65,pickup,True,9.3,False
+20569,CUST0228,Cedar Falls,2026-07-04,Household,3,2.29,pickup,True,6.87,False
+20570,CUST0056,Northgate,2026-07-04,Bakery,2,5.58,pickup,True,11.16,False
+20571,CUST0056,Cedar Falls,2026-07-04,Frozen,1,5.39,delivery,False,5.39,True
+20572,CUST0011,Elmsford,2026-07-04,Beverages,4,5.06,delivery,True,20.24,False
+20573,CUST0068,Elmsford,2026-07-05,Produce,3,2.4,pickup,True,7.2,False
+20574,CUST0288,Cedar Falls,2026-07-05,Household,2,5.67,pickup,True,11.34,True
+20575,CUST0014,Brookhaven,2026-07-05,Household,2,7.87,pickup,True,15.74,False
+20576,CUST0058,Elmsford,2026-07-05,Pantry,6,6.51,pickup,True,39.06,False
+20577,CUST0205,Northgate,2026-07-05,Beverages,2,3.98,pickup,True,7.96,False
+20578,CUST0032,Elmsford,2026-07-05,Meat,1,11.67,delivery,True,11.67,False
+20579,CUST0204,Cedar Falls,2026-07-05,Produce,7,1.69,pickup,True,11.83,False
+20580,CUST0339,Elmsford,2026-07-05,Pantry,4,2.99,pickup,True,11.96,False
+20581,CUST0276,Elmsford,2026-07-05,Household,3,8.2,pickup,True,24.6,False
+20582,CUST0054,Elmsford,2026-07-05,Beverages,4,3.51,pickup,True,14.04,False
+20583,CUST0197,Brookhaven,2026-07-05,Meat,2,11.89,pickup,True,23.78,False
+20584,CUST0094,Elmsford,2026-07-05,Pantry,3,3.56,pickup,True,10.68,False
+20585,CUST0074,Northgate,2026-07-05,Produce,7,1.98,delivery,True,13.86,False
+20586,CUST0085,Elmsford,2026-07-05,Household,1,6.29,delivery,True,6.29,False
+20587,CUST0112,Brookhaven,2026-07-05,Produce,3,2.33,pickup,True,6.99,False
+20588,CUST0138,Brookhaven,2026-07-05,Produce,3,3.65,pickup,True,10.95,False
+20589,CUST0044,Elmsford,2026-07-06,Bakery,3,5.19,pickup,True,15.57,False
+20590,CUST0270,Cedar Falls,2026-07-06,Frozen,3,6.63,pickup,True,19.89,True
+20591,CUST0202,Elmsford,2026-07-06,Dairy,5,4.02,pickup,True,20.1,False
+20592,CUST0059,Elmsford,2026-07-06,Frozen,2,8.37,pickup,True,16.74,False
+20593,CUST0059,Brookhaven,2026-07-06,Beverages,4,4.78,delivery,True,19.12,False
+20594,CUST0132,Cedar Falls,2026-07-06,Frozen,2,4.83,pickup,True,9.66,False
+20595,CUST0119,Cedar Falls,2026-07-06,Dairy,5,3.19,pickup,True,15.95,False
+20596,CUST0257,Northgate,2026-07-06,Household,1,6.82,pickup,True,6.82,False
+20597,CUST0085,Cedar Falls,2026-07-06,Pantry,2,2.91,delivery,True,5.82,False
+20598,CUST0271,Elmsford,2026-07-06,Dairy,2,3.26,pickup,True,6.52,False
+20599,CUST0335,Northgate,2026-07-06,Beverages,2,3.92,delivery,True,7.84,False
+20600,CUST0118,Elmsford,2026-07-06,Household,1,7.87,pickup,True,7.87,False
+20601,CUST0206,Elmsford,2026-07-06,Pantry,3,4.21,delivery,True,12.63,False
+20602,CUST0165,Brookhaven,2026-07-06,Frozen,3,4.66,pickup,True,13.98,False
+20603,CUST0006,Elmsford,2026-07-06,Pantry,5,4.48,pickup,True,22.4,False
+20604,CUST0308,Cedar Falls,2026-07-06,Meat,1,11.63,pickup,True,11.63,False
+20605,CUST0115,Cedar Falls,2026-07-07,Household,2,7.73,delivery,True,15.46,False
+20606,CUST0200,Brookhaven,2026-07-07,Household,3,5.03,delivery,True,15.09,False
+20607,CUST0286,Cedar Falls,2026-07-07,Bakery,2,4.63,pickup,True,9.26,False
+20608,CUST0078,Elmsford,2026-07-07,Beverages,2,4.05,delivery,True,8.1,False
+20609,CUST0020,Northgate,2026-07-07,Bakery,2,3.41,pickup,True,6.82,False
+20610,CUST0008,Cedar Falls,2026-07-07,Frozen,2,5.21,pickup,True,10.42,False
+20611,CUST0259,Elmsford,2026-07-07,Produce,4,2.8,delivery,True,11.2,False
+20612,CUST0311,Elmsford,2026-07-07,Meat,1,9.88,pickup,True,9.88,False
+20613,CUST0106,Cedar Falls,2026-07-07,Dairy,1,4.05,pickup,True,4.05,False
+20614,CUST0107,Elmsford,2026-07-07,Dairy,5,3.37,delivery,True,16.85,False
+20615,CUST0273,Cedar Falls,2026-07-07,Frozen,1,6.01,pickup,True,6.01,False
+20616,CUST0159,Elmsford,2026-07-07,Frozen,2,6.22,pickup,True,12.44,False
+20617,CUST0232,Northgate,2026-07-07,Household,3,5.83,delivery,True,17.49,False
+20618,CUST0240,Elmsford,2026-07-08,Bakery,3,4.67,pickup,True,14.01,False
+20619,CUST0315,Cedar Falls,2026-07-08,Frozen,1,6.71,pickup,True,6.71,False
+20620,CUST0173,Elmsford,2026-07-08,Pantry,3,6.1,delivery,True,18.3,False
+20621,CUST0017,Cedar Falls,2026-07-08,Bakery,2,3.78,pickup,True,7.56,False
+20622,CUST0306,Northgate,2026-07-08,Meat,3,6.68,delivery,True,20.04,False
+20623,CUST0076,Elmsford,2026-07-08,Beverages,1,5.72,pickup,True,5.72,False
+20624,CUST0018,Northgate,2026-07-08,Bakery,2,4.51,pickup,True,9.02,False
+20625,CUST0067,Elmsford,2026-07-08,Produce,4,1.99,pickup,True,7.96,False
+20626,CUST0292,Elmsford,2026-07-09,Dairy,2,3.99,pickup,True,7.98,False
+20627,CUST0175,Northgate,2026-07-09,Dairy,3,3.95,pickup,True,11.85,False
+20628,CUST0205,Cedar Falls,2026-07-09,Produce,2,2.3,pickup,True,4.6,False
+20629,CUST0159,Northgate,2026-07-09,Dairy,2,3.53,pickup,True,7.06,False
+20630,CUST0325,Brookhaven,2026-07-09,Beverages,1,4.51,pickup,True,4.51,False
+20631,CUST0292,Elmsford,2026-07-09,Produce,8,2.65,delivery,True,21.2,False
+20632,CUST0045,Northgate,2026-07-09,Frozen,4,5.84,delivery,True,23.36,True
+20633,CUST0301,Cedar Falls,2026-07-09,Dairy,1,3.83,delivery,True,3.83,False
+20634,CUST0147,Elmsford,2026-07-09,Bakery,1,3.06,pickup,True,3.06,False
+20635,CUST0177,Elmsford,2026-07-09,Produce,2,1.69,delivery,True,3.38,False
+20636,CUST0302,Cedar Falls,2026-07-09,Beverages,1,4.55,pickup,True,4.55,False
+20637,CUST0177,Elmsford,2026-07-09,Bakery,2,4.06,delivery,True,8.12,False
+20638,CUST0181,Elmsford,2026-07-09,Frozen,2,7.01,pickup,True,14.02,False
+20639,CUST0096,Brookhaven,2026-07-10,Produce,1,3.04,pickup,True,3.04,False
+20640,CUST0090,Northgate,2026-07-10,Dairy,5,4.05,delivery,True,20.25,False
+20641,CUST0135,Elmsford,2026-07-10,Frozen,3,5.26,delivery,True,15.78,True
+20642,CUST0237,Elmsford,2026-07-10,Dairy,1,3.42,pickup,True,3.42,False
+20643,CUST0068,Elmsford,2026-07-10,Beverages,1,2.5,pickup,True,2.5,False
+20644,CUST0249,Northgate,2026-07-10,Household,2,3.34,delivery,True,6.68,False
+20645,CUST0182,Northgate,2026-07-10,Bakery,1,4.81,delivery,True,4.81,False
+20646,CUST0076,Cedar Falls,2026-07-10,Pantry,6,6.13,delivery,True,36.78,True
+20647,CUST0144,Cedar Falls,2026-07-10,Produce,7,2.64,delivery,True,18.48,False
+20648,CUST0050,Elmsford,2026-07-10,Pantry,5,5.45,pickup,True,27.25,False
+20649,CUST0340,Elmsford,2026-07-10,Meat,1,10.97,delivery,True,10.97,False
+20650,CUST0082,Brookhaven,2026-07-10,Meat,2,6.83,delivery,True,13.66,False
+20651,CUST0150,Cedar Falls,2026-07-10,Household,2,5.92,pickup,True,11.84,False
+20652,CUST0338,Northgate,2026-07-10,Dairy,5,4.51,pickup,True,22.55,False
+20653,CUST0114,Elmsford,2026-07-10,Bakery,1,3.32,pickup,True,3.32,False
+20654,CUST0050,Northgate,2026-07-11,Frozen,1,6.5,pickup,True,6.5,False
+20655,CUST0129,Elmsford,2026-07-11,Beverages,6,3.34,pickup,True,20.04,False
+20656,CUST0287,Cedar Falls,2026-07-11,Dairy,5,3.93,delivery,True,19.65,False
+20657,CUST0092,Elmsford,2026-07-11,Household,1,6.27,pickup,True,6.27,False
+20658,CUST0271,Elmsford,2026-07-11,Produce,8,2.89,delivery,True,23.12,False
+20659,CUST0273,Northgate,2026-07-11,Beverages,1,3.49,pickup,True,3.49,False
+20660,CUST0192,Northgate,2026-07-11,Produce,5,2.74,pickup,True,13.7,False
+20661,CUST0090,Cedar Falls,2026-07-11,Household,1,9.11,pickup,True,9.11,False
+20662,CUST0323,Elmsford,2026-07-11,Bakery,1,5.53,delivery,True,5.53,False
+20663,CUST0035,Cedar Falls,2026-07-11,Meat,1,9.52,pickup,True,9.52,False
+20664,CUST0281,Elmsford,2026-07-11,Produce,3,3.63,delivery,False,10.89,False
+20665,CUST0168,Elmsford,2026-07-11,Frozen,2,6.31,pickup,True,12.62,False
+20666,CUST0151,Northgate,2026-07-11,Dairy,5,2.87,pickup,True,14.35,False
+20667,CUST0200,Brookhaven,2026-07-11,Dairy,2,3.48,pickup,True,6.96,False
+20668,CUST0036,Cedar Falls,2026-07-11,Pantry,6,5.63,pickup,False,33.78,False
+20669,CUST0117,Elmsford,2026-07-12,Pantry,2,4.68,pickup,True,9.36,False
+20670,CUST0286,Brookhaven,2026-07-12,Dairy,1,2.61,pickup,False,2.61,False
+20671,CUST0187,Elmsford,2026-07-12,Pantry,2,5.76,pickup,True,11.52,False
+20672,CUST0193,Northgate,2026-07-12,Bakery,2,3.77,pickup,True,7.54,False
+20673,CUST0013,Elmsford,2026-07-12,Bakery,3,4.86,pickup,True,14.58,False
+20674,CUST0325,Northgate,2026-07-12,Household,1,7.32,pickup,True,7.32,False
+20675,CUST0337,Cedar Falls,2026-07-12,Produce,6,2.04,pickup,True,12.24,False
+20676,CUST0253,Cedar Falls,2026-07-12,Bakery,2,4.56,delivery,True,9.12,False
+20677,CUST0036,Elmsford,2026-07-12,Produce,8,2.88,pickup,True,23.04,False
+20678,CUST0226,Elmsford,2026-07-12,Bakery,1,3.03,pickup,True,3.03,False
+20679,CUST0121,Elmsford,2026-07-12,Meat,3,12.49,delivery,True,37.47,False
+20680,CUST0303,Northgate,2026-07-12,Beverages,2,4.2,delivery,True,8.4,False
+20681,CUST0292,Northgate,2026-07-12,Meat,3,7.88,pickup,True,23.64,False
+20682,CUST0163,Cedar Falls,2026-07-12,Household,2,5.4,delivery,True,10.8,False
+20683,CUST0006,Brookhaven,2026-07-12,Pantry,1,5.14,pickup,True,5.14,False
+20684,CUST0205,Northgate,2026-07-13,Produce,6,2.79,pickup,True,16.74,False
+20685,CUST0128,Northgate,2026-07-13,Pantry,1,3.98,delivery,True,3.98,False
+20686,CUST0133,Brookhaven,2026-07-13,Dairy,5,3.94,delivery,False,19.7,False
+20687,CUST0325,Brookhaven,2026-07-13,Household,2,7.16,pickup,True,14.32,False
+20688,CUST0191,Cedar Falls,2026-07-13,Beverages,5,2.78,delivery,True,13.9,False
+20689,CUST0295,Brookhaven,2026-07-13,Beverages,1,4.02,delivery,False,4.02,False
+20690,CUST0141,Cedar Falls,2026-07-13,Beverages,5,2.74,delivery,True,13.7,False
+20691,CUST0133,Brookhaven,2026-07-13,Bakery,2,4.09,delivery,True,8.18,False
+20692,CUST0302,Cedar Falls,2026-07-13,Meat,1,7.13,delivery,False,7.13,False
+20693,CUST0279,Cedar Falls,2026-07-13,Beverages,6,2.27,delivery,False,13.62,False
+20694,CUST0221,Brookhaven,2026-07-13,Dairy,1,3.31,pickup,True,3.31,False
+20695,CUST0105,Northgate,2026-07-13,Frozen,1,6.07,delivery,True,6.07,True
+20696,CUST0273,Elmsford,2026-07-13,Pantry,3,1.78,pickup,True,5.34,False
+20697,CUST0302,Northgate,2026-07-13,Bakery,1,4.92,delivery,True,4.92,False
+20698,CUST0284,Cedar Falls,2026-07-13,Bakery,1,2.12,delivery,True,2.12,False
+20699,CUST0025,Northgate,2026-07-13,Frozen,1,3.73,pickup,True,3.73,False
+20700,CUST0063,Elmsford,2026-07-13,Beverages,3,5.53,pickup,True,16.59,False
+20701,CUST0050,Brookhaven,2026-07-14,Frozen,2,5.16,pickup,True,10.32,False
+20702,CUST0233,Cedar Falls,2026-07-14,Beverages,6,5.0,delivery,True,30.0,False
+20703,CUST0212,Elmsford,2026-07-14,Frozen,2,6.26,pickup,True,12.52,False
+20704,CUST0136,Elmsford,2026-07-14,Dairy,5,3.2,pickup,True,16.0,False
+20705,CUST0054,Cedar Falls,2026-07-14,Bakery,1,4.62,pickup,True,4.62,False
+20706,CUST0302,Elmsford,2026-07-14,Bakery,1,3.39,delivery,True,3.39,False
+20707,CUST0103,Elmsford,2026-07-14,Meat,3,4.62,pickup,False,13.86,False
+20708,CUST0035,Elmsford,2026-07-14,Produce,8,2.11,pickup,True,16.88,False
+20709,CUST0209,Cedar Falls,2026-07-14,Household,2,7.82,pickup,True,15.64,False
+20710,CUST0228,Northgate,2026-07-14,Dairy,3,3.79,pickup,True,11.37,False
+20711,CUST0026,Northgate,2026-07-14,Beverages,6,3.86,pickup,True,23.16,False
+20712,CUST0337,Elmsford,2026-07-14,Household,2,4.23,delivery,True,8.46,False
+20713,CUST0196,Brookhaven,2026-07-15,Dairy,2,3.39,pickup,True,6.78,False
+20714,CUST0286,Elmsford,2026-07-15,Household,1,4.71,pickup,False,4.71,False
+20715,CUST0110,Elmsford,2026-07-15,Pantry,4,5.58,delivery,True,22.32,False
+20716,CUST0066,Brookhaven,2026-07-15,Household,3,6.61,delivery,True,19.83,False
+20717,CUST0257,Elmsford,2026-07-15,Household,3,6.79,delivery,True,20.37,False
+20718,CUST0162,Cedar Falls,2026-07-16,Produce,5,2.99,delivery,True,14.95,False
+20719,CUST0084,Northgate,2026-07-16,Household,3,6.09,pickup,True,18.27,False
+20720,CUST0061,Elmsford,2026-07-16,Household,3,7.75,delivery,True,23.25,False
+20721,CUST0208,Brookhaven,2026-07-16,Pantry,2,6.22,pickup,True,12.44,False
+20722,CUST0258,Cedar Falls,2026-07-16,Dairy,4,2.83,delivery,True,11.32,False
+20723,CUST0080,Northgate,2026-07-16,Household,2,6.57,delivery,False,13.14,True
+20724,CUST0271,Elmsford,2026-07-16,Frozen,2,6.44,delivery,True,12.88,False
+20725,CUST0314,Northgate,2026-07-16,Frozen,2,4.42,pickup,True,8.84,False
+20726,CUST0073,Cedar Falls,2026-07-16,Household,3,5.1,delivery,True,15.3,True
+20727,CUST0288,Brookhaven,2026-07-17,Frozen,4,4.49,pickup,True,17.96,False
+20728,CUST0033,Northgate,2026-07-17,Beverages,1,2.81,pickup,True,2.81,False
+20729,CUST0065,Brookhaven,2026-07-17,Household,3,8.11,pickup,True,24.33,False
+20730,CUST0334,Northgate,2026-07-17,Beverages,2,4.67,pickup,True,9.34,False
+20731,CUST0318,Brookhaven,2026-07-17,Bakery,1,4.58,pickup,True,4.58,False
+20732,CUST0245,Cedar Falls,2026-07-17,Produce,3,2.74,delivery,True,8.22,False
+20733,CUST0179,Northgate,2026-07-17,Frozen,4,6.04,pickup,True,24.16,False
+20734,CUST0323,Elmsford,2026-07-17,Household,1,6.71,delivery,True,6.71,False
+20735,CUST0246,Elmsford,2026-07-17,Meat,1,8.0,pickup,True,8.0,False
+20736,CUST0135,Elmsford,2026-07-17,Pantry,2,4.98,pickup,True,9.96,False
+20737,CUST0136,Elmsford,2026-07-17,Beverages,5,2.49,delivery,True,12.45,False
+20738,CUST0308,Elmsford,2026-07-17,Pantry,3,5.14,pickup,True,15.42,False
+20739,CUST0244,Brookhaven,2026-07-17,Pantry,5,6.98,delivery,False,34.9,False
+20740,CUST0116,Elmsford,2026-07-17,Household,2,10.96,delivery,True,21.92,False
+20741,CUST0306,Elmsford,2026-07-18,Household,1,5.57,delivery,True,5.57,False
+20742,CUST0030,Brookhaven,2026-07-18,Household,3,2.82,pickup,True,8.46,False
+20743,CUST0266,Cedar Falls,2026-07-18,Dairy,1,4.33,delivery,True,4.33,False
+20744,CUST0331,Cedar Falls,2026-07-18,Household,3,2.63,delivery,True,7.89,False
+20745,CUST0062,Elmsford,2026-07-18,Household,2,6.34,pickup,True,12.68,False
+20746,CUST0120,Brookhaven,2026-07-18,Beverages,2,4.46,pickup,False,8.92,False
+20747,CUST0059,Northgate,2026-07-18,Meat,3,8.78,pickup,True,26.34,False
+20748,CUST0204,Elmsford,2026-07-18,Pantry,6,6.64,pickup,True,39.84,False
+20749,CUST0089,Elmsford,2026-07-18,Pantry,5,5.94,pickup,True,29.7,False
+20750,CUST0270,Cedar Falls,2026-07-18,Pantry,3,2.81,pickup,True,8.43,False
+20751,CUST0340,Brookhaven,2026-07-18,Produce,1,2.55,pickup,False,2.55,True
+20752,CUST0255,Brookhaven,2026-07-18,Meat,2,9.16,pickup,True,18.32,False
+20753,CUST0177,Northgate,2026-07-18,Household,3,9.39,pickup,True,28.17,False
+20754,CUST0016,Northgate,2026-07-18,Household,1,12.46,pickup,True,12.46,False
+20755,CUST0047,Northgate,2026-07-18,Beverages,3,3.69,delivery,True,11.07,False
+20756,CUST0109,Brookhaven,2026-07-18,Pantry,4,5.51,pickup,True,22.04,False
+20757,CUST0200,Cedar Falls,2026-07-19,Bakery,2,4.69,delivery,True,9.38,False
+20758,CUST0242,Northgate,2026-07-19,Pantry,3,6.38,delivery,False,19.14,False
+20759,CUST0165,Northgate,2026-07-19,Household,3,9.09,delivery,True,27.27,False
+20760,CUST0044,Brookhaven,2026-07-19,Meat,1,10.1,delivery,True,10.1,False
+20761,CUST0301,Northgate,2026-07-19,Produce,7,2.04,pickup,True,14.28,False
+20762,CUST0008,Brookhaven,2026-07-19,Bakery,2,4.22,delivery,True,8.44,False
+20763,CUST0288,Brookhaven,2026-07-19,Meat,2,5.66,pickup,True,11.32,False
+20764,CUST0297,Elmsford,2026-07-19,Frozen,2,4.75,delivery,True,9.5,False
+20765,CUST0105,Elmsford,2026-07-19,Produce,8,3.33,pickup,True,26.64,False
+20766,CUST0332,Cedar Falls,2026-07-19,Household,2,9.97,delivery,True,19.94,False
+20767,CUST0301,Northgate,2026-07-19,Meat,2,9.33,pickup,True,18.66,False
+20768,CUST0186,Elmsford,2026-07-20,Household,3,6.73,delivery,True,20.19,False
+20769,CUST0216,Cedar Falls,2026-07-20,Frozen,4,6.31,pickup,True,25.24,False
+20770,CUST0005,Brookhaven,2026-07-20,Bakery,1,4.65,pickup,True,4.65,False
+20771,CUST0276,Cedar Falls,2026-07-20,Dairy,5,3.65,pickup,True,18.25,False
+20772,CUST0340,Brookhaven,2026-07-20,Dairy,1,3.97,pickup,True,3.97,False
+20773,CUST0186,Elmsford,2026-07-20,Meat,1,9.76,pickup,True,9.76,False
+20774,CUST0162,Elmsford,2026-07-20,Dairy,1,3.47,delivery,True,3.47,False
+20775,CUST0147,Elmsford,2026-07-20,Dairy,1,3.45,delivery,True,3.45,False
+20776,CUST0063,Elmsford,2026-07-20,Produce,2,2.68,pickup,True,5.36,False
+20777,CUST0106,Elmsford,2026-07-20,Bakery,1,2.9,pickup,True,2.9,False
+20778,CUST0274,Northgate,2026-07-20,Meat,3,9.7,pickup,True,29.1,False
+20779,CUST0188,Cedar Falls,2026-07-20,Frozen,3,6.94,delivery,True,20.82,True
+20780,CUST0153,Northgate,2026-07-20,Frozen,3,6.63,pickup,True,19.89,False
+20781,CUST0225,Elmsford,2026-07-21,Frozen,1,6.95,pickup,True,6.95,False
+20782,CUST0029,Elmsford,2026-07-21,Dairy,5,3.14,pickup,True,15.7,False
+20783,CUST0121,Elmsford,2026-07-21,Household,1,9.09,delivery,True,9.09,False
+20784,CUST0128,Elmsford,2026-07-21,Pantry,5,4.93,delivery,True,24.65,False
+20785,CUST0036,Cedar Falls,2026-07-21,Pantry,1,4.61,pickup,True,4.61,False
+20786,CUST0288,Cedar Falls,2026-07-21,Beverages,5,5.46,delivery,True,27.3,False
+20787,CUST0087,Northgate,2026-07-21,Frozen,1,5.28,pickup,True,5.28,False
+20788,CUST0238,Brookhaven,2026-07-21,Produce,8,3.32,pickup,True,26.56,False
+20789,CUST0018,Elmsford,2026-07-21,Bakery,1,2.34,delivery,True,2.34,False
+20790,CUST0246,Northgate,2026-07-21,Bakery,2,3.53,delivery,True,7.06,False
+20791,CUST0051,Elmsford,2026-07-21,Meat,1,12.27,delivery,True,12.27,False
+20792,CUST0337,Cedar Falls,2026-07-21,Beverages,1,4.36,pickup,True,4.36,False
+20793,CUST0014,Elmsford,2026-07-21,Bakery,1,4.27,pickup,True,4.27,False
+20794,CUST0205,Brookhaven,2026-07-21,Meat,1,7.31,pickup,False,7.31,False
+20795,CUST0277,Brookhaven,2026-07-21,Pantry,5,4.86,pickup,True,24.3,False
+20796,CUST0110,Elmsford,2026-07-22,Frozen,4,4.65,delivery,False,18.6,False
+20797,CUST0206,Cedar Falls,2026-07-22,Bakery,3,4.65,delivery,True,13.95,False
+20798,CUST0312,Cedar Falls,2026-07-22,Bakery,3,4.86,delivery,True,14.58,False
+20799,CUST0212,Brookhaven,2026-07-22,Frozen,4,5.41,pickup,True,21.64,False
+20800,CUST0041,Northgate,2026-07-22,Produce,6,3.05,delivery,True,18.3,False
+20801,CUST0044,Elmsford,2026-07-22,Produce,2,1.61,delivery,True,3.22,True
+20802,CUST0084,Northgate,2026-07-23,Frozen,4,6.73,pickup,True,26.92,False
+20803,CUST0117,Cedar Falls,2026-07-23,Meat,1,10.37,delivery,False,10.37,False
+20804,CUST0293,Northgate,2026-07-23,Beverages,5,3.49,pickup,True,17.45,False
+20805,CUST0131,Elmsford,2026-07-23,Produce,3,1.56,pickup,True,4.68,False
+20806,CUST0237,Cedar Falls,2026-07-23,Household,3,8.51,delivery,True,25.53,False
+20807,CUST0267,Northgate,2026-07-23,Frozen,4,7.43,delivery,True,29.72,False
+20808,CUST0309,Elmsford,2026-07-23,Household,2,7.8,delivery,True,15.6,False
+20809,CUST0330,Brookhaven,2026-07-23,Produce,6,2.86,pickup,True,17.16,False
+20810,CUST0126,Brookhaven,2026-07-23,Meat,2,11.27,delivery,True,22.54,False
+20811,CUST0290,Northgate,2026-07-23,Dairy,1,3.61,pickup,True,3.61,False
+20812,CUST0329,Cedar Falls,2026-07-23,Pantry,6,4.7,pickup,True,28.2,False
+20813,CUST0002,Cedar Falls,2026-07-24,Bakery,2,4.72,delivery,True,9.44,False
+20814,CUST0179,Elmsford,2026-07-24,Beverages,4,2.28,pickup,True,9.12,False
+20815,CUST0092,Brookhaven,2026-07-24,Pantry,4,5.15,pickup,True,20.6,False
+20816,CUST0193,Cedar Falls,2026-07-24,Pantry,1,5.08,pickup,True,5.08,False
+20817,CUST0332,Elmsford,2026-07-24,Bakery,2,4.57,pickup,True,9.14,False
+20818,CUST0144,Northgate,2026-07-24,Beverages,2,4.41,pickup,True,8.82,False
+20819,CUST0054,Elmsford,2026-07-24,Bakery,2,3.32,pickup,True,6.64,False
+20820,CUST0235,Northgate,2026-07-24,Pantry,1,5.4,delivery,True,5.4,False
+20821,CUST0053,Cedar Falls,2026-07-24,Dairy,5,3.59,pickup,True,17.95,False
+20822,CUST0121,Northgate,2026-07-24,Produce,8,2.22,pickup,True,17.76,False
+20823,CUST0294,Northgate,2026-07-24,Pantry,2,5.51,pickup,True,11.02,False
+20824,CUST0309,Northgate,2026-07-24,Pantry,1,5.75,pickup,False,5.75,False
+20825,CUST0058,Northgate,2026-07-24,Household,1,5.19,pickup,True,5.19,False
+20826,CUST0042,Elmsford,2026-07-25,Household,3,10.06,delivery,True,30.18,False
+20827,CUST0188,Northgate,2026-07-25,Produce,5,2.65,pickup,True,13.25,False
+20828,CUST0294,Northgate,2026-07-25,Bakery,2,5.01,delivery,True,10.02,False
+20829,CUST0307,Brookhaven,2026-07-25,Produce,7,2.6,pickup,True,18.2,False
+20830,CUST0228,Brookhaven,2026-07-25,Frozen,1,5.42,pickup,True,5.42,False
+20831,CUST0145,Northgate,2026-07-25,Beverages,6,4.34,pickup,False,26.04,False
+20832,CUST0322,Cedar Falls,2026-07-25,Bakery,1,3.52,pickup,False,3.52,False
+20833,CUST0078,Brookhaven,2026-07-25,Bakery,2,3.83,pickup,True,7.66,False
+20834,CUST0015,Elmsford,2026-07-25,Meat,3,9.77,pickup,True,29.31,False
+20835,CUST0203,Cedar Falls,2026-07-25,Frozen,2,6.04,delivery,True,12.08,False
+20836,CUST0301,Brookhaven,2026-07-25,Household,3,7.8,pickup,True,23.4,True
+20837,CUST0257,Cedar Falls,2026-07-25,Pantry,4,5.54,pickup,True,22.16,False
+20838,CUST0259,Elmsford,2026-07-25,Meat,1,10.28,delivery,True,10.28,False
+20839,CUST0007,Elmsford,2026-07-26,Pantry,1,4.0,pickup,True,4.0,False
+20840,CUST0209,Northgate,2026-07-26,Household,2,5.13,delivery,True,10.26,False
+20841,CUST0285,Elmsford,2026-07-26,Pantry,4,6.72,delivery,True,26.88,False
+20842,CUST0281,Northgate,2026-07-26,Pantry,4,4.0,pickup,True,16.0,False
+20843,CUST0331,Elmsford,2026-07-26,Meat,3,7.75,pickup,True,23.25,False
+20844,CUST0055,Elmsford,2026-07-26,Household,3,8.18,pickup,True,24.54,False
+20845,CUST0205,Elmsford,2026-07-26,Pantry,1,5.01,delivery,True,5.01,False
+20846,CUST0177,Cedar Falls,2026-07-26,Beverages,2,3.19,pickup,True,6.38,False
+20847,CUST0103,Brookhaven,2026-07-26,Beverages,3,2.36,pickup,True,7.08,False
+20848,CUST0192,Cedar Falls,2026-07-26,Pantry,3,5.36,pickup,True,16.08,False
+20849,CUST0217,Elmsford,2026-07-26,Beverages,3,4.41,pickup,True,13.23,True
+20850,CUST0078,Cedar Falls,2026-07-26,Meat,3,7.47,pickup,True,22.41,False
+20851,CUST0048,Brookhaven,2026-07-26,Meat,1,7.67,delivery,True,7.67,False
+20852,CUST0059,Brookhaven,2026-07-26,Household,1,7.22,pickup,True,7.22,False
+20853,CUST0044,Elmsford,2026-07-26,Meat,3,7.62,pickup,True,22.86,False
+20854,CUST0227,Elmsford,2026-07-26,Bakery,3,3.74,pickup,True,11.22,False
+20855,CUST0135,Elmsford,2026-07-27,Beverages,3,3.94,delivery,True,11.82,False
+20856,CUST0260,Cedar Falls,2026-07-27,Dairy,1,3.87,pickup,True,3.87,False
+20857,CUST0311,Elmsford,2026-07-27,Produce,4,4.65,pickup,True,18.6,False
+20858,CUST0314,Elmsford,2026-07-27,Meat,3,9.33,pickup,True,27.99,False
+20859,CUST0010,Elmsford,2026-07-27,Meat,2,8.56,delivery,True,17.12,False
+20860,CUST0008,Brookhaven,2026-07-27,Bakery,1,5.45,pickup,True,5.45,False
+20861,CUST0336,Elmsford,2026-07-27,Bakery,2,4.4,pickup,True,8.8,False
+20862,CUST0340,Cedar Falls,2026-07-27,Bakery,3,4.58,pickup,False,13.74,False
+20863,CUST0294,Cedar Falls,2026-07-27,Meat,3,12.39,pickup,True,37.17,False
+20864,CUST0088,Cedar Falls,2026-07-27,Pantry,5,5.43,pickup,True,27.15,False
+20865,CUST0235,Northgate,2026-07-28,Meat,2,12.48,pickup,True,24.96,False
+20866,CUST0330,Elmsford,2026-07-28,Pantry,5,7.14,delivery,True,35.7,False
+20867,CUST0080,Cedar Falls,2026-07-28,Dairy,4,3.57,pickup,True,14.28,False
+20868,CUST0296,Brookhaven,2026-07-28,Pantry,6,3.96,pickup,False,23.76,False
+20869,CUST0170,Northgate,2026-07-28,Household,1,7.21,delivery,True,7.21,False
+20870,CUST0059,Elmsford,2026-07-28,Meat,3,11.14,delivery,True,33.42,False
+20871,CUST0172,Elmsford,2026-07-28,Dairy,5,3.73,delivery,True,18.65,False
+20872,CUST0312,Brookhaven,2026-07-28,Produce,5,2.42,delivery,False,12.1,False
+20873,CUST0059,Northgate,2026-07-28,Produce,1,1.56,pickup,True,1.56,False
+20874,CUST0297,Cedar Falls,2026-07-28,Beverages,3,3.17,pickup,True,9.51,False
+20875,CUST0009,Brookhaven,2026-07-28,Beverages,4,3.82,delivery,True,15.28,False
+20876,CUST0192,Elmsford,2026-07-28,Produce,1,3.5,delivery,True,3.5,False
+20877,CUST0077,Elmsford,2026-07-28,Dairy,3,3.8,delivery,True,11.4,False
+20878,CUST0265,Brookhaven,2026-07-28,Frozen,4,5.44,pickup,True,21.76,False
+20879,CUST0301,Cedar Falls,2026-07-28,Frozen,1,4.19,pickup,True,4.19,False
+20880,CUST0233,Brookhaven,2026-07-29,Meat,1,7.92,pickup,True,7.92,
+20881,CUST0181,Northgate,2026-07-29,Meat,1,8.83,delivery,True,8.83,
+20882,CUST0038,Elmsford,2026-07-29,Household,3,9.99,delivery,True,29.97,
+20883,CUST0034,Cedar Falls,2026-07-29,Bakery,1,4.84,pickup,True,4.84,
+20884,CUST0218,Elmsford,2026-07-29,Beverages,4,4.31,pickup,True,17.24,
+20885,CUST0242,Northgate,2026-07-29,Bakery,1,3.67,delivery,True,3.67,
+20886,CUST0218,Elmsford,2026-07-29,Bakery,2,2.85,delivery,True,5.7,
+20887,CUST0030,Northgate,2026-07-29,Meat,1,5.78,pickup,True,5.78,
+20888,CUST0200,Northgate,2026-07-29,Produce,5,2.7,pickup,False,13.5,
+20889,CUST0059,Cedar Falls,2026-07-29,Meat,2,9.81,pickup,False,19.62,
+20890,CUST0084,Northgate,2026-07-30,Dairy,3,4.08,pickup,True,12.24,
+20891,CUST0054,Northgate,2026-07-30,Produce,1,3.18,delivery,True,3.18,
+20892,CUST0235,Elmsford,2026-07-30,Beverages,6,5.33,delivery,True,31.98,
+20893,CUST0180,Cedar Falls,2026-07-30,Frozen,1,7.64,pickup,True,7.64,
+20894,CUST0110,Northgate,2026-07-30,Pantry,5,4.69,pickup,True,23.45,
+20895,CUST0193,Brookhaven,2026-07-30,Pantry,4,3.63,pickup,True,14.52,
+20896,CUST0306,Northgate,2026-07-30,Beverages,2,5.6,delivery,True,11.2,
+20897,CUST0075,Elmsford,2026-07-30,Pantry,1,5.33,pickup,True,5.33,
+20898,CUST0193,Northgate,2026-07-30,Pantry,4,3.02,delivery,True,12.08,
+20899,CUST0328,Cedar Falls,2026-07-30,Meat,3,8.32,delivery,True,24.96,
+20900,CUST0294,Elmsford,2026-07-30,Dairy,4,2.69,delivery,True,10.76,
+20901,CUST0252,Elmsford,2026-07-30,Frozen,3,6.75,delivery,True,20.25,
+20902,CUST0323,Elmsford,2026-07-30,Frozen,1,4.5,delivery,True,4.5,
+20903,CUST0006,Elmsford,2026-07-31,Dairy,2,3.4,delivery,True,6.8,
+20904,CUST0139,Northgate,2026-07-31,Household,2,9.12,pickup,True,18.24,
+20905,CUST0049,Northgate,2026-07-31,Dairy,3,2.54,pickup,True,7.62,
+20906,CUST0169,Elmsford,2026-07-31,Household,2,4.76,pickup,True,9.52,
+20907,CUST0253,Cedar Falls,2026-07-31,Meat,3,8.83,delivery,True,26.49,
+20908,CUST0092,Elmsford,2026-07-31,Bakery,2,4.53,pickup,True,9.06,
+20909,CUST0329,Elmsford,2026-07-31,Frozen,3,5.55,delivery,True,16.65,
+20910,CUST0245,Brookhaven,2026-07-31,Pantry,5,4.84,pickup,True,24.2,
+20911,CUST0316,Elmsford,2026-07-31,Beverages,1,5.0,pickup,True,5.0,
+20912,CUST0273,Elmsford,2026-07-31,Frozen,3,3.75,pickup,True,11.25,
+20913,CUST0149,Elmsford,2026-08-01,Produce,6,2.68,pickup,,16.08,
+20914,CUST0205,Northgate,2026-08-01,Beverages,6,3.65,pickup,,21.9,
+20915,CUST0209,Cedar Falls,2026-08-01,Bakery,1,3.25,pickup,,3.25,
+20916,CUST0249,Cedar Falls,2026-08-01,Meat,1,12.86,delivery,,12.86,
+20917,CUST0097,Northgate,2026-08-01,Bakery,1,4.61,pickup,,4.61,
+20918,CUST0079,Brookhaven,2026-08-01,Meat,3,9.63,pickup,,28.89,
+20919,CUST0324,Cedar Falls,2026-08-01,Pantry,3,5.81,delivery,,17.43,
+20920,CUST0089,Cedar Falls,2026-08-01,Household,2,7.13,pickup,,14.26,
+20921,CUST0074,Cedar Falls,2026-08-01,Pantry,4,4.46,pickup,,17.84,
+20922,CUST0322,Cedar Falls,2026-08-01,Pantry,6,4.53,delivery,,27.18,
+20923,CUST0268,Elmsford,2026-08-01,Frozen,4,4.34,delivery,,17.36,
+20924,CUST0220,Brookhaven,2026-08-01,Meat,3,10.46,pickup,,31.38,
+20925,CUST0264,Brookhaven,2026-08-01,Produce,3,1.79,pickup,,5.37,
+20926,CUST0267,Brookhaven,2026-08-01,Meat,3,9.67,delivery,,29.01,
+20927,CUST0268,Elmsford,2026-08-01,Meat,3,11.6,pickup,,34.8,
+20928,CUST0191,Northgate,2026-08-01,Bakery,2,5.68,delivery,,11.36,
+20929,CUST0231,Elmsford,2026-08-02,Beverages,1,4.81,pickup,,4.81,
+20930,CUST0308,Northgate,2026-08-02,Meat,1,8.33,pickup,,8.33,
+20931,CUST0170,Northgate,2026-08-02,Pantry,4,3.74,pickup,,14.96,
+20932,CUST0056,Cedar Falls,2026-08-02,Pantry,6,4.02,pickup,,24.12,
+20933,CUST0198,Brookhaven,2026-08-02,Produce,3,2.23,pickup,,6.69,
+20934,CUST0035,Elmsford,2026-08-02,Frozen,3,5.24,delivery,,15.72,
+20935,CUST0042,Brookhaven,2026-08-02,Household,1,4.77,delivery,,4.77,
+20936,CUST0292,Elmsford,2026-08-02,Produce,8,3.89,delivery,,31.12,
+20937,CUST0089,Northgate,2026-08-02,Bakery,1,3.3,pickup,,3.3,
+20938,CUST0315,Northgate,2026-08-02,Produce,5,2.77,pickup,,13.85,
+20939,CUST0288,Cedar Falls,2026-08-02,Dairy,3,4.41,pickup,,13.23,
+20940,CUST0045,Brookhaven,2026-08-02,Meat,2,11.75,pickup,,23.5,
+20941,CUST0044,Brookhaven,2026-08-02,Dairy,3,4.23,delivery,,12.69,
+20942,CUST0242,Elmsford,2026-08-02,Pantry,3,2.94,pickup,,8.82,
+20943,CUST0054,Cedar Falls,2026-08-02,Produce,6,2.89,pickup,,17.34,
+20944,CUST0302,Elmsford,2026-08-02,Pantry,4,5.95,pickup,,23.8,
+20945,CUST0197,Elmsford,2026-08-02,Produce,6,3.35,delivery,,20.1,
+20946,CUST0270,Brookhaven,2026-08-02,Pantry,2,4.96,delivery,,9.92,
+20947,CUST0076,Northgate,2026-08-02,Household,3,6.55,delivery,,19.65,
+20948,CUST0156,Cedar Falls,2026-08-02,Household,3,7.63,pickup,,22.89,
