@@ -10,7 +10,6 @@ Time blocks
 
 All figures cover four weeks of operation.
 """
-from starter import ZONES, TIME_BLOCKS, COSTS, PROMISE, delivery_times
 import numpy as np
 
 ZONES = ["Central", "North", "Far West"]
